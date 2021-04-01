@@ -1,9 +1,11 @@
-# FSH School Basic Tutorial
+# PEPFAR/WHO Simple Implementation Guide
 
-The source code for the basic tutorial examples in FSH School.
+Documentation: https://docs.google.com/document/d/1OeqTFl2JllglZ-MFJniKhjzYGCl6hqgLzUOQMKNBqyQ/edit#
+
+See [here](https://drive.google.com/drive/folders/1vTVgdkzLHUQ2bfkuk8ymeHXgxtpC1EMJ?usp=sharing) for other artifacts
+
+Base code retieved from FSH School.
 
 For more information, see the [FSH School Basic Tutorial](https://fshschool.github.io/tutorials/basic).
 
-When updates are to be published (incorporated into FSH School), download the zip from the master
-branch, and put it into the content/tutorials/basic/ directory of the
-[FSHSchool/site GitHub repository]().
+
