@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="fish-species-value-set"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  90580008 (Fish)</li></ul></div>
+  </text>
+  <url value="http://example.org/fhir/fish/ValueSet/fish-species-value-set"/>
+  <version value="0.1.0"/>
+  <name value="FishSpeciesValueSet"/>
+  <title value="Fish Species Value Set"/>
+  <status value="active"/>
+  <date value="2021-04-01T10:12:55-04:00"/>
+  <contact>
+    <name value="Bill Cod"/>
+    <telecom>
+      <system value="email"/>
+      <value value="cod@reef.gov"/>
+    </telecom>
+  </contact>
+  <description value="Codes describing various species of fish, taken from SNOMED-CT."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="90580008"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

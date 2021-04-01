@@ -1,0 +1,77 @@
+{
+  "ImplementationGuide/fish": {
+    "history": false,
+    "index": 0,
+    "source": "C:\\Users\\jamlung\\Documents\\gofsh\\fsh-tutorial-master\\FishExample\\fsh-generated\\resources\\ImplementationGuide-fish.json",
+    "url": "http://example.org/fhir/fish/ImplementationGuide/fish",
+    "name": "FishImplementationGuide",
+    "title": "Fish Implementation Guide",
+    "version": "0.1.0",
+    "date": "2021-04-01T10:12:55-04:00",
+    "status": {
+      "class": "colsd",
+      "status": "Draft"
+    }
+  },
+  "Patient/Shorty": {
+    "history": false,
+    "index": 1,
+    "source": "fsh-generated/resources/Patient-Shorty.json"
+  },
+  "StructureDefinition/fish-patient": {
+    "history": false,
+    "index": 2,
+    "source": "fsh-generated/resources/StructureDefinition-fish-patient.json",
+    "url": "http://example.org/fhir/fish/StructureDefinition/fish-patient",
+    "name": "FishPatient",
+    "title": "Fish Patient",
+    "version": "0.1.0",
+    "date": "2021-04-01T10:12:55-04:00",
+    "status": {
+      "class": "colstu",
+      "status": "Active"
+    }
+  },
+  "StructureDefinition/fish-species": {
+    "history": false,
+    "index": 3,
+    "source": "fsh-generated/resources/StructureDefinition-fish-species.json",
+    "url": "http://example.org/fhir/fish/StructureDefinition/fish-species",
+    "name": "FishSpecies",
+    "title": "Fish Species",
+    "version": "0.1.0",
+    "date": "2021-04-01T10:12:55-04:00",
+    "status": {
+      "class": "colstu",
+      "status": "Active"
+    }
+  },
+  "StructureDefinition/veterinarian": {
+    "history": false,
+    "index": 4,
+    "source": "fsh-generated/resources/StructureDefinition-veterinarian.json",
+    "url": "http://example.org/fhir/fish/StructureDefinition/veterinarian",
+    "name": "Veterinarian",
+    "title": "Veterinarian",
+    "version": "0.1.0",
+    "date": "2021-04-01T10:12:55-04:00",
+    "status": {
+      "class": "colstu",
+      "status": "Active"
+    }
+  },
+  "ValueSet/fish-species-value-set": {
+    "history": false,
+    "index": 5,
+    "source": "fsh-generated/resources/ValueSet-fish-species-value-set.json",
+    "url": "http://example.org/fhir/fish/ValueSet/fish-species-value-set",
+    "name": "FishSpeciesValueSet",
+    "title": "Fish Species Value Set",
+    "version": "0.1.0",
+    "date": "2021-04-01T10:12:55-04:00",
+    "status": {
+      "class": "colstu",
+      "status": "Active"
+    }
+  }
+}

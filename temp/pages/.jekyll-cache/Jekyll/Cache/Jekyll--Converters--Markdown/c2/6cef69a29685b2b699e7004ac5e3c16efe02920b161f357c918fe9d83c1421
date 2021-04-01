@@ -1,0 +1,28 @@
+I"<p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h3 id="background">Background</h3>
+
+<p>Fishkeeping is a popular hobby, practiced by aquarists, concerned with keeping fish in a home aquarium or garden pond. There is also a piscicultural fishkeeping industry, as a branch of agriculture.</p>
+
+<h3 id="meet-shorty">Meet Shorty</h3>
+
+<p>This is Shorty, the mascot for FHIR Shorthand. He’s doing contortions to shape himself into an “S”, for Shorthand.</p>
+
+<p><img src="./Shorty.png" alt="Shorty the FSH" /></p>
+
+<h3 id="fhir-shorthand-resources">FHIR Shorthand Resources</h3>
+
+<p>FHIR Shorthand calls currently are the second Thursday of every month at 9 am Eastern US Time. <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGJmYmVlM2UtYzVkZi00YWJjLWJlNzMtN2ZkYTVkYTA1Mzlk%40thread.v2/0?context=%7b%22Tid%22%3a%22c620dc48-1d50-4952-8b39-df4d54d74d82%22%2c%22Oid%22%3a%22f9a60b6f-fbcc-48d0-bc8e-d6d742b4b339%22%7d">Click here to join</a></p>
+
+<p><a href="https://confluence.hl7.org/display/FHIRI/FHIR+Shorthand">HL7 Confluence site</a></p>
+
+<p><a href="https://build.fhir.org/ig/HL7/fhir-shorthand">FHIR Shorthand Documentation</a></p>
+
+<p><a href="https://github.com/HL7/fhir-shorthand">FHIR Shorthand documentation code repository</a></p>
+
+<p><a href="https://github.com/FHIR/sushi">SUSHI code repository</a></p>
+
+<p><a href="https://chat.fhir.org">Zulip</a> channel: #shorthand</p>
+:ET

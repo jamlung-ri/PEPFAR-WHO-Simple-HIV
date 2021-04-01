@@ -1,0 +1,55 @@
+{
+  "fish-patient": {
+    "index": 0,
+    "url": "http://example.org/fhir/fish/StructureDefinition/fish-patient",
+    "name": "FishPatient",
+    "path": "StructureDefinition-fish-patient.html",
+    "kind": "resource",
+    "type": "Patient",
+    "base": "http://hl7.org/fhir/StructureDefinition/Patient",
+    "basename": "Patient",
+    "basepath": "http://hl7.org/fhir/R4/patient.html",
+    "status": "active",
+    "date": "Thu Apr 01 10:12:55 EDT 2021",
+    "abstract": false,
+    "derivation": "constraint",
+    "description": "A patient that is a type of fish."
+  },
+  "fish-species": {
+    "index": 1,
+    "url": "http://example.org/fhir/fish/StructureDefinition/fish-species",
+    "name": "FishSpecies",
+    "path": "StructureDefinition-fish-species.html",
+    "kind": "complex-type",
+    "type": "Extension",
+    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename": "Extension",
+    "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status": "active",
+    "date": "Thu Apr 01 10:12:55 EDT 2021",
+    "abstract": false,
+    "derivation": "constraint",
+    "description": "The species of the fish.",
+    "contexts": [
+      {
+        "type": "Element"
+      }
+    ]
+  },
+  "veterinarian": {
+    "index": 2,
+    "url": "http://example.org/fhir/fish/StructureDefinition/veterinarian",
+    "name": "Veterinarian",
+    "path": "StructureDefinition-veterinarian.html",
+    "kind": "resource",
+    "type": "Practitioner",
+    "base": "http://hl7.org/fhir/StructureDefinition/Practitioner",
+    "basename": "Practitioner",
+    "basepath": "http://hl7.org/fhir/R4/practitioner.html",
+    "status": "active",
+    "date": "Thu Apr 01 10:12:55 EDT 2021",
+    "abstract": false,
+    "derivation": "constraint",
+    "description": "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers."
+  }
+}

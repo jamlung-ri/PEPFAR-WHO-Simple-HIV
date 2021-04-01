@@ -1,0 +1,37 @@
+[
+  {
+    "id": "fish",
+    "type": "ImplementationGuide",
+    "url": "http://example.org/fhir/fish/ImplementationGuide/fish",
+    "version": "0.1.0",
+    "name": "FishImplementationGuide"
+  },
+  {
+    "id": "fish-patient",
+    "type": "StructureDefinition",
+    "url": "http://example.org/fhir/fish/StructureDefinition/fish-patient",
+    "version": "0.1.0",
+    "name": "FishPatient"
+  },
+  {
+    "id": "fish-species",
+    "type": "StructureDefinition",
+    "url": "http://example.org/fhir/fish/StructureDefinition/fish-species",
+    "version": "0.1.0",
+    "name": "FishSpecies"
+  },
+  {
+    "id": "veterinarian",
+    "type": "StructureDefinition",
+    "url": "http://example.org/fhir/fish/StructureDefinition/veterinarian",
+    "version": "0.1.0",
+    "name": "Veterinarian"
+  },
+  {
+    "id": "fish-species-value-set",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/fish/ValueSet/fish-species-value-set",
+    "version": "0.1.0",
+    "name": "FishSpeciesValueSet"
+  }
+]
