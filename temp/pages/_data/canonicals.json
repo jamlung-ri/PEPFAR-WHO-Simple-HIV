@@ -1,10 +1,45 @@
 [
   {
+    "id": "HIVExtendedCodes",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+    "version": "0.1.0",
+    "name": "HIVExtendedCodes"
+  },
+  {
     "id": "fish",
     "type": "ImplementationGuide",
     "url": "http://example.org/fhir/fish/ImplementationGuide/fish",
     "version": "0.1.0",
     "name": "FishImplementationGuide"
+  },
+  {
+    "id": "ARTStartType",
+    "type": "StructureDefinition",
+    "url": "http://example.org/fhir/fish/StructureDefinition/ARTStartType",
+    "version": "0.1.0",
+    "name": "ARTStartType"
+  },
+  {
+    "id": "HIV-MedStatement",
+    "type": "StructureDefinition",
+    "url": "http://example.org/fhir/fish/StructureDefinition/HIV-MedStatement",
+    "version": "0.1.0",
+    "name": "HIV_MedicationStatement"
+  },
+  {
+    "id": "HIV-patient",
+    "type": "StructureDefinition",
+    "url": "http://example.org/fhir/fish/StructureDefinition/HIV-patient",
+    "version": "0.1.0",
+    "name": "HIV_Patient"
+  },
+  {
+    "id": "estimatedAge",
+    "type": "StructureDefinition",
+    "url": "http://example.org/fhir/fish/StructureDefinition/estimatedAge",
+    "version": "0.1.0",
+    "name": "Estimated_Age"
   },
   {
     "id": "fish-patient",
@@ -26,6 +61,13 @@
     "url": "http://example.org/fhir/fish/StructureDefinition/veterinarian",
     "version": "0.1.0",
     "name": "Veterinarian"
+  },
+  {
+    "id": "ARTStartTypeValues",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/fish/ValueSet/ARTStartTypeValues",
+    "version": "0.1.0",
+    "name": "ARTStartTypeValues"
   },
   {
     "id": "fish-species-value-set",

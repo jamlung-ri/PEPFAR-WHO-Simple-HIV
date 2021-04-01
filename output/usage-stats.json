@@ -4,6 +4,21 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
+      "url": "http://example.org/fhir/fish/StructureDefinition/ARTStartType",
+      "title": "ART Start Type",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://example.org/fhir/fish/StructureDefinition/estimatedAge",
+      "title": "Estimated Age",
+      "types": [
+        "integer"
+      ]
+    },
+    {
       "url": "http://example.org/fhir/fish/StructureDefinition/fish-species",
       "title": "Fish Species",
       "types": [
@@ -13,7 +28,17 @@
     }
   ],
   "profiles": {
+    "MedicationStatement": [
+      {
+        "url": "http://example.org/fhir/fish/StructureDefinition/HIV-MedStatement",
+        "title": "HIV MedicationStatement - ART"
+      }
+    ],
     "Patient": [
+      {
+        "url": "http://example.org/fhir/fish/StructureDefinition/HIV-patient",
+        "title": "HIV Patient"
+      },
       {
         "url": "http://example.org/fhir/fish/StructureDefinition/fish-patient",
         "title": "Fish Patient"
@@ -27,6 +52,12 @@
     ]
   },
   "usage": {
+    "http://example.org/fhir/fish/StructureDefinition/ARTStartType": [
+      "MedicationStatement"
+    ],
+    "http://example.org/fhir/fish/StructureDefinition/estimatedAge": [
+      "Patient"
+    ],
     "http://example.org/fhir/fish/StructureDefinition/fish-species": [
       "Patient"
     ],

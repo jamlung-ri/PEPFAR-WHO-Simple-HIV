@@ -1,11 +1,59 @@
 {
   "resourceType" : "Bundle",
-  "id" : "65ccd559-3ee0-4cf3-830a-6e29a0aa40c6",
+  "id" : "c6b40821-32da-4be1-93f5-88f464e4bdac",
   "meta" : {
-    "lastUpdated" : "2021-04-01T10:12:55.241-04:00"
+    "lastUpdated" : "2021-04-01T14:28:14.720-04:00"
   },
   "type" : "collection",
   "entry" : [{
+    "fullUrl" : "http://example.org/fhir/fish/ValueSet/ARTStartTypeValues",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "ARTStartTypeValues",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-HIVExtendedCodes.html\">HIV Extended Codes v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-HIVExtendedCodes.html\"><code>http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-fish-CodeSystem-HIVExtendedCodes-First-time\"> </a><a href=\"CodeSystem-HIVExtendedCodes.html#HIVExtendedCodes-First-time\">First-time</a></td><td>First-time user of ART</td><td>Client is ART naive, having never taken ART to treat HIV before</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-fish-CodeSystem-HIVExtendedCodes-Restarting\"> </a><a href=\"CodeSystem-HIVExtendedCodes.html#HIVExtendedCodes-Restarting\">Restarting</a></td><td>Restarting ART</td><td>Client is restarting ART after stopping treatment for any reason</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/fish/ValueSet/ARTStartTypeValues",
+      "version" : "0.1.0",
+      "name" : "ARTStartTypeValues",
+      "title" : "ART Start Type values",
+      "status" : "active",
+      "date" : "2021-04-01T14:28:14-04:00",
+      "contact" : [{
+        "name" : "Bill Cod",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "cod@reef.gov"
+        }]
+      }],
+      "description" : "Codes describing whether the client is ART naive or is restarting ART",
+      "expansion" : {
+        "identifier" : "urn:uuid:ccdc9ba3-cb2d-4e32-9042-8a1f5ea7cff5",
+        "timestamp" : "2021-04-01T14:28:49-04:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+          "code" : "First-time",
+          "display" : "First-time user of ART"
+        },
+        {
+          "system" : "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+          "code" : "Restarting",
+          "display" : "Restarting ART"
+        }]
+      }
+    }
+  },
+  {
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {

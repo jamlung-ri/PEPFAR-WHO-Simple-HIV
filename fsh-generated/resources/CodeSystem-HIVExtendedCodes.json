@@ -1,0 +1,24 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "HIVExtendedCodes",
+  "id": "HIVExtendedCodes",
+  "title": "HIV Extended Codes",
+  "description": "Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology.",
+  "version": "0.1.0",
+  "url": "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+  "concept": [
+    {
+      "code": "First-time",
+      "display": "First-time user of ART",
+      "definition": "Client is ART naive, having never taken ART to treat HIV before"
+    },
+    {
+      "code": "Restarting",
+      "display": "Restarting ART",
+      "definition": "Client is restarting ART after stopping treatment for any reason"
+    }
+  ],
+  "count": 2
+}

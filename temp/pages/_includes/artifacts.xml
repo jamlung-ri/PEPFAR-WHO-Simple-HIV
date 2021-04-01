@@ -14,7 +14,10 @@
          <a href="#3">Terminology: Value Sets</a>
       </li>
       <li>
-         <a href="#4">Example: Example Instances</a>
+         <a href="#4">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#5">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -40,6 +43,22 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-HIV-MedStatement.html"
+                     title="StructureDefinition/HIV-MedStatement">HIV MedicationStatement - ART</a>
+               </td>
+               <td>{% capture desc %}A summary of the ART medication being taken by an HIV patient{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-HIV-patient.html"
+                     title="StructureDefinition/HIV-patient">HIV Patient</a>
+               </td>
+               <td>{% capture desc %}A patient that may be diagnosed with HIV, may have a viral load lab, and may be virally suppressed.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-veterinarian.html"
                      title="StructureDefinition/veterinarian">Veterinarian</a>
                </td>
@@ -57,6 +76,22 @@
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ARTStartType.html"
+                     title="StructureDefinition/ARTStartType">ART Start Type</a>
+               </td>
+               <td>{% capture desc %}Whether the client is ART naive or is restarting ART{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-estimatedAge.html"
+                     title="StructureDefinition/estimatedAge">Estimated Age</a>
+               </td>
+               <td>{% capture desc %}Estimated Age of Patient if date of birth is unavailable{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-fish-species.html"
@@ -78,6 +113,14 @@
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-ARTStartTypeValues.html"
+                     title="ValueSet/ARTStartTypeValues">ART Start Type values</a>
+               </td>
+               <td>{% capture desc %}Codes describing whether the client is ART naive or is restarting ART{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-fish-species-value-set.html"
                      title="ValueSet/fish-species-value-set">Fish Species Value Set</a>
                </td>
@@ -88,6 +131,25 @@
       </table>
    </p>
    <a name="4"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>{% capture grouping_desc %}These define new code systems used by systems conforming to this implementation guide{% endcapture %}
+    {{ grouping_desc | markdownify}}</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-HIVExtendedCodes.html"
+                     title="CodeSystem/HIVExtendedCodes">HIV Extended Codes</a>
+               </td>
+               <td>{% capture desc %}Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
    <h3>Example: Example Instances </h3>
    <p>{% capture grouping_desc %}These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like{% endcapture %}
     {{ grouping_desc | markdownify}}</p>

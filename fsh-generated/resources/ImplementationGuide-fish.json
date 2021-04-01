@@ -35,10 +35,42 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/HIV-MedStatement"
+        },
+        "name": "HIV MedicationStatement - ART",
+        "description": "A summary of the ART medication being taken by an HIV patient",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/HIV-patient"
+        },
+        "name": "HIV Patient",
+        "description": "A patient that may be diagnosed with HIV, may have a viral load lab, and may be virally suppressed.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/veterinarian"
         },
         "name": "Veterinarian",
         "description": "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/ARTStartType"
+        },
+        "name": "ART Start Type",
+        "description": "Whether the client is ART naive or is restarting ART",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/estimatedAge"
+        },
+        "name": "Estimated Age",
+        "description": "Estimated Age of Patient if date of birth is unavailable",
         "exampleBoolean": false
       },
       {
@@ -51,10 +83,26 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/ARTStartTypeValues"
+        },
+        "name": "ART Start Type values",
+        "description": "Codes describing whether the client is ART naive or is restarting ART",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/fish-species-value-set"
         },
         "name": "Fish Species Value Set",
         "description": "Codes describing various species of fish, taken from SNOMED-CT.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/HIVExtendedCodes"
+        },
+        "name": "HIV Extended Codes",
+        "description": "Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology.",
         "exampleBoolean": false
       },
       {

@@ -11,7 +11,7 @@
   <name value="FishImplementationGuide"/>
   <title value="Fish Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-04-01T10:12:55-04:00"/>
+  <date value="2021-04-01T14:28:14-04:00"/>
   <contact>
     <name value="Bill Cod"/>
     <telecom>
@@ -208,10 +208,54 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/HIV-MedStatement"/>
+      </reference>
+      <name value="HIV MedicationStatement - ART"/>
+      <description value="A summary of the ART medication being taken by an HIV patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/HIV-patient"/>
+      </reference>
+      <name value="HIV Patient"/>
+      <description value="A patient that may be diagnosed with HIV, may have a viral load lab, and may be virally suppressed."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/veterinarian"/>
       </reference>
       <name value="Veterinarian"/>
       <description value="A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ARTStartType"/>
+      </reference>
+      <name value="ART Start Type"/>
+      <description value="Whether the client is ART naive or is restarting ART"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/estimatedAge"/>
+      </reference>
+      <name value="Estimated Age"/>
+      <description value="Estimated Age of Patient if date of birth is unavailable"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -230,10 +274,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/ARTStartTypeValues"/>
+      </reference>
+      <name value="ART Start Type values"/>
+      <description value="Codes describing whether the client is ART naive or is restarting ART"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/fish-species-value-set"/>
       </reference>
       <name value="Fish Species Value Set"/>
       <description value="Codes describing various species of fish, taken from SNOMED-CT."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/HIVExtendedCodes"/>
+      </reference>
+      <name value="HIV Extended Codes"/>
+      <description value="Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "HIVExtendedCodes"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">First-time<a name=\"HIVExtendedCodes-First-time\"> </a></td><td>First-time user of ART</td><td>Client is ART naive, having never taken ART to treat HIV before</td></tr><tr><td style=\"white-space:nowrap\">Restarting<a name=\"HIVExtendedCodes-Restarting\"> </a></td><td>Restarting ART</td><td>Client is restarting ART after stopping treatment for any reason</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "HIVExtendedCodes"];
+  fhir:CodeSystem.title [ fhir:value "HIV Extended Codes"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-04-01T14:28:14-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Bill Cod" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "cod@reef.gov" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology."];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "2"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "First-time" ];
+     fhir:CodeSystem.concept.display [ fhir:value "First-time user of ART" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Client is ART naive, having never taken ART to treat HIV before" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "Restarting" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Restarting ART" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Client is restarting ART after stopping treatment for any reason" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

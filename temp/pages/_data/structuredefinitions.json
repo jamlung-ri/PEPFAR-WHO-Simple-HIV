@@ -1,6 +1,48 @@
 {
-  "fish-patient": {
+  "ARTStartType": {
     "index": 0,
+    "url": "http://example.org/fhir/fish/StructureDefinition/ARTStartType",
+    "name": "ARTStartType",
+    "path": "StructureDefinition-ARTStartType.html",
+    "kind": "complex-type",
+    "type": "Extension",
+    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename": "Extension",
+    "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status": "active",
+    "date": "Thu Apr 01 14:28:14 EDT 2021",
+    "abstract": false,
+    "derivation": "constraint",
+    "description": "Whether the client is ART naive or is restarting ART",
+    "contexts": [
+      {
+        "type": "Element"
+      }
+    ]
+  },
+  "estimatedAge": {
+    "index": 1,
+    "url": "http://example.org/fhir/fish/StructureDefinition/estimatedAge",
+    "name": "Estimated_Age",
+    "path": "StructureDefinition-estimatedAge.html",
+    "kind": "complex-type",
+    "type": "Extension",
+    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename": "Extension",
+    "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status": "active",
+    "date": "Thu Apr 01 14:28:14 EDT 2021",
+    "abstract": false,
+    "derivation": "constraint",
+    "description": "Estimated Age of Patient if date of birth is unavailable",
+    "contexts": [
+      {
+        "type": "Element"
+      }
+    ]
+  },
+  "fish-patient": {
+    "index": 2,
     "url": "http://example.org/fhir/fish/StructureDefinition/fish-patient",
     "name": "FishPatient",
     "path": "StructureDefinition-fish-patient.html",
@@ -10,13 +52,13 @@
     "basename": "Patient",
     "basepath": "http://hl7.org/fhir/R4/patient.html",
     "status": "active",
-    "date": "Thu Apr 01 10:12:55 EDT 2021",
+    "date": "Thu Apr 01 14:28:14 EDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "description": "A patient that is a type of fish."
   },
   "fish-species": {
-    "index": 1,
+    "index": 3,
     "url": "http://example.org/fhir/fish/StructureDefinition/fish-species",
     "name": "FishSpecies",
     "path": "StructureDefinition-fish-species.html",
@@ -26,7 +68,7 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status": "active",
-    "date": "Thu Apr 01 10:12:55 EDT 2021",
+    "date": "Thu Apr 01 14:28:14 EDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "description": "The species of the fish.",
@@ -36,8 +78,40 @@
       }
     ]
   },
+  "HIV-MedStatement": {
+    "index": 4,
+    "url": "http://example.org/fhir/fish/StructureDefinition/HIV-MedStatement",
+    "name": "HIV_MedicationStatement",
+    "path": "StructureDefinition-HIV-MedStatement.html",
+    "kind": "resource",
+    "type": "MedicationStatement",
+    "base": "http://hl7.org/fhir/StructureDefinition/MedicationStatement",
+    "basename": "MedicationStatement",
+    "basepath": "http://hl7.org/fhir/R4/medicationstatement.html",
+    "status": "active",
+    "date": "Thu Apr 01 14:28:14 EDT 2021",
+    "abstract": false,
+    "derivation": "constraint",
+    "description": "A summary of the ART medication being taken by an HIV patient"
+  },
+  "HIV-patient": {
+    "index": 5,
+    "url": "http://example.org/fhir/fish/StructureDefinition/HIV-patient",
+    "name": "HIV_Patient",
+    "path": "StructureDefinition-HIV-patient.html",
+    "kind": "resource",
+    "type": "Patient",
+    "base": "http://hl7.org/fhir/StructureDefinition/Patient",
+    "basename": "Patient",
+    "basepath": "http://hl7.org/fhir/R4/patient.html",
+    "status": "active",
+    "date": "Thu Apr 01 14:28:14 EDT 2021",
+    "abstract": false,
+    "derivation": "constraint",
+    "description": "A patient that may be diagnosed with HIV, may have a viral load lab, and may be virally suppressed."
+  },
   "veterinarian": {
-    "index": 2,
+    "index": 6,
     "url": "http://example.org/fhir/fish/StructureDefinition/veterinarian",
     "name": "Veterinarian",
     "path": "StructureDefinition-veterinarian.html",
@@ -47,7 +121,7 @@
     "basename": "Practitioner",
     "basepath": "http://hl7.org/fhir/R4/practitioner.html",
     "status": "active",
-    "date": "Thu Apr 01 10:12:55 EDT 2021",
+    "date": "Thu Apr 01 14:28:14 EDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "description": "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers."

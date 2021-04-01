@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ARTStartTypeValues"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-HIVExtendedCodes.html"><code>http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes</code></a></li></ul></div>
+  </text>
+  <url value="http://example.org/fhir/fish/ValueSet/ARTStartTypeValues"/>
+  <version value="0.1.0"/>
+  <name value="ARTStartTypeValues"/>
+  <title value="ART Start Type values"/>
+  <status value="active"/>
+  <date value="2021-04-01T14:28:14-04:00"/>
+  <contact>
+    <name value="Bill Cod"/>
+    <telecom>
+      <system value="email"/>
+      <value value="cod@reef.gov"/>
+    </telecom>
+  </contact>
+  <description value="Codes describing whether the client is ART naive or is restarting ART"/>
+  <compose>
+    <include>
+      <system value="http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes"/>
+    </include>
+  </compose>
+</ValueSet>

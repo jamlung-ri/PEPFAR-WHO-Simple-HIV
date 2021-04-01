@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ARTStartTypeValues",
+  "id": "ARTStartTypeValues",
+  "title": "ART Start Type values",
+  "description": "Codes describing whether the client is ART naive or is restarting ART",
+  "version": "0.1.0",
+  "url": "http://example.org/fhir/fish/ValueSet/ARTStartTypeValues",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes"
+      }
+    ]
+  }
+}

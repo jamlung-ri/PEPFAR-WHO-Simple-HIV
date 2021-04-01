@@ -17,7 +17,7 @@
    <name value="FishImplementationGuide"/>
    <title value="Fish Implementation Guide"/>
    <status value="draft"/>
-   <date value="2021-04-01T10:12:55-04:00"/>
+   <date value="2021-04-01T14:28:14-04:00"/>
    <contact>
       <name value="Bill Cod"/>
       <telecom>
@@ -50,7 +50,10 @@
          <name value="Terminology: Value Sets"/>
          <description value="These define sets of codes used by systems conforming to this implementation guide"/>
       </grouping>
-
+      <grouping id="_term_codesystem">
+         <name value="Terminology: Code Systems"/>
+         <description value="These define new code systems used by systems conforming to this implementation guide"/>
+      </grouping>
 
 
 
@@ -84,6 +87,36 @@
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-HIV-MedStatement.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/HIV-MedStatement"/>
+         </reference>
+         <name value="HIV MedicationStatement - ART"/>
+         <description value="A summary of the ART medication being taken by an HIV patient"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-HIV-patient.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/HIV-patient"/>
+         </reference>
+         <name value="HIV Patient"/>
+         <description value="A patient that may be diagnosed with HIV, may have a viral load lab, and may be virally suppressed."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="StructureDefinition-veterinarian.html"/>
          </extension>
          <reference>
@@ -93,6 +126,36 @@
          <description value="A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers."/>
          <exampleBoolean value="false"/>
          <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-ARTStartType.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/ARTStartType"/>
+         </reference>
+         <name value="ART Start Type"/>
+         <description value="Whether the client is ART naive or is restarting ART"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-estimatedAge.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/estimatedAge"/>
+         </reference>
+         <name value="Estimated Age"/>
+         <description value="Estimated Age of Patient if date of birth is unavailable"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_extension"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -114,6 +177,21 @@
             <valueString value="ValueSet"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-ARTStartTypeValues.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/ARTStartTypeValues"/>
+         </reference>
+         <name value="ART Start Type values"/>
+         <description value="Codes describing whether the client is ART naive or is restarting ART"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="ValueSet-fish-species-value-set.html"/>
          </extension>
          <reference>
@@ -123,6 +201,21 @@
          <description value="Codes describing various species of fish, taken from SNOMED-CT."/>
          <exampleBoolean value="false"/>
          <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-HIVExtendedCodes.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/HIVExtendedCodes"/>
+         </reference>
+         <name value="HIV Extended Codes"/>
+         <description value="Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_term_codesystem"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -157,8 +250,28 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="StructureDefinition-HIV-MedStatement.html"/>
+               <title value="HIV MedicationStatement - ART"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-HIV-patient.html"/>
+               <title value="HIV Patient"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="StructureDefinition-veterinarian.html"/>
                <title value="Veterinarian"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-ARTStartType.html"/>
+               <title value="ART Start Type"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-estimatedAge.html"/>
+               <title value="Estimated Age"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -167,8 +280,18 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="ValueSet-ARTStartTypeValues.html"/>
+               <title value="ART Start Type values"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="ValueSet-fish-species-value-set.html"/>
                <title value="Fish Species Value Set"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="CodeSystem-HIVExtendedCodes.html"/>
+               <title value="HIV Extended Codes"/>
                <generation value="generated"/>
             </page>
             <page>

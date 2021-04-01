@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="HIVExtendedCodes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">First-time<a name="HIVExtendedCodes-First-time"> </a></td><td>First-time user of ART</td><td>Client is ART naive, having never taken ART to treat HIV before</td></tr><tr><td style="white-space:nowrap">Restarting<a name="HIVExtendedCodes-Restarting"> </a></td><td>Restarting ART</td><td>Client is restarting ART after stopping treatment for any reason</td></tr></table></div>
+  </text>
+  <url value="http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes"/>
+  <version value="0.1.0"/>
+  <name value="HIVExtendedCodes"/>
+  <title value="HIV Extended Codes"/>
+  <status value="active"/>
+  <date value="2021-04-01T14:28:14-04:00"/>
+  <contact>
+    <name value="Bill Cod"/>
+    <telecom>
+      <system value="email"/>
+      <value value="cod@reef.gov"/>
+    </telecom>
+  </contact>
+  <description value="Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology."/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="First-time"/>
+    <display value="First-time user of ART"/>
+    <definition value="Client is ART naive, having never taken ART to treat HIV before"/>
+  </concept>
+  <concept>
+    <code value="Restarting"/>
+    <display value="Restarting ART"/>
+    <definition value="Client is restarting ART after stopping treatment for any reason"/>
+  </concept>
+</CodeSystem>
