@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="Shorty"/>
+  <meta>
+    <profile value="http://example.org/fhir/fish/StructureDefinition/fish-patient"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Fish Species</b>: <span title="Codes: {http://snomed.info/sct 47978005}">Carpiodes cyprinus (organism)</span></p><p><b>name</b>: Shorty Koi-Fish </p></div>
+  </text>
+  <extension url="http://example.org/fhir/fish/StructureDefinition/fish-species">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="47978005"/>
+        <display value="Carpiodes cyprinus (organism)"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <name>
+    <family value="Koi-Fish"/>
+    <given value="Shorty"/>
+  </name>
+</Patient>

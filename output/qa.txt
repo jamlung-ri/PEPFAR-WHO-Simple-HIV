@@ -1,0 +1,66 @@
+﻿FishImplementationGuide : Validation Results
+=========================================
+
+err = 0, warn = 2, info = 0
+IG Publisher Version: 1.1.65
+Generated Thu Apr 01 10:14:17 EDT 2021. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)
+
+ Build Errors : 36 / 1 / 0
+ C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\ImplementationGuide-fish : 0 / 0 / 1
+ C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\Patient-Shorty : 0 / 0 / 1
+ C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\StructureDefinition-fish-patient : 0 / 0 / 1
+ C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\StructureDefinition-fish-species : 0 / 0 / 1
+ C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\StructureDefinition-veterinarian : 0 / 1 / 1
+ C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\ValueSet-fish-species-value-set : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/Shorty.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\Patient-Shorty.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\Patient-Shorty.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\Patient-Shorty.json.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\Patient-Shorty.ttl.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\Patient-Shorty.xml.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-patient-definitions.html#/html/body/div/div/div/p/a at Line 743, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-patient-examples.html#/html/body/div/div/div/p/a at Line 263, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-patient-mappings.html#/html/body/div/div/div/p/a at Line 348, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-patient.html#/html/body/div/div/div/p/a at Line 717, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-patient.profile.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-patient.profile.json.html#/html/body/div/div/div/p/a at Line 2581, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 2275, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-patient.profile.xml.html#/html/body/div/div/div/p/a at Line 2362, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-species-definitions.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-species-mappings.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-species.html#/html/body/div/div/div/p/a at Line 493, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-species.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-species.profile.json.html#/html/body/div/div/div/p/a at Line 588, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-species.profile.ttl.html#/html/body/div/div/div/p/a at Line 552, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-fish-species.profile.xml.html#/html/body/div/div/div/p/a at Line 537, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-veterinarian-definitions.html#/html/body/div/div/div/p/a at Line 507, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-veterinarian-examples.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-veterinarian-mappings.html#/html/body/div/div/div/p/a at Line 299, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-veterinarian.html#/html/body/div/div/div/p/a at Line 579, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-veterinarian.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-veterinarian.profile.json.html#/html/body/div/div/div/p/a at Line 1517, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-veterinarian.profile.ttl.html#/html/body/div/div/div/p/a at Line 1362, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\StructureDefinition-veterinarian.profile.xml.html#/html/body/div/div/div/p/a at Line 1394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\ValueSet-fish-species-value-set.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\ValueSet-fish-species-value-set.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\ValueSet-fish-species-value-set.json.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\ValueSet-fish-species-value-set.ttl.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\ValueSet-fish-species-value-set.xml.html#/html/body/div/div/div/p/a at Line 230, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\artifacts.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\index.html#/html/body/div/div/div/p/a at Line 189, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\output\toc.html#/html/body/div/div/div/p/a at Line 146, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+== C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\ImplementationGuide-fish.json ==
+INFORMATION: ImplementationGuide/fish: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+== C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\Patient-Shorty.json ==
+INFORMATION: Patient/Shorty: Patient: Validate resource against profile http://example.org/fhir/fish/StructureDefinition/fish-patient
+== C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\StructureDefinition-fish-patient.json ==
+INFORMATION: StructureDefinition/fish-patient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\StructureDefinition-fish-species.json ==
+INFORMATION: StructureDefinition/fish-species: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\StructureDefinition-veterinarian.json ==
+INFORMATION: StructureDefinition/veterinarian: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/veterinarian'): The Implementation Guide contains no examples for this profile
+== C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\ValueSet-fish-species-value-set.json ==
+INFORMATION: ValueSet/fish-species-value-set: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet

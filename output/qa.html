@@ -1,0 +1,258 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 36, errors = 0, warn = 2, info = 0 -->
+<head>
+  <title>FishImplementationGuide : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for FishImplementationGuide</h1>
+ <p>Generated Thu Apr 01 10:14:17 EDT 2021, FHIR version 4.0.1 for fish#0.1.0 (canonical = <a href="http://example.org/fhir/fish">http://example.org/fhir/fish</a> (<a href="http://example.org/fhir/fish/history.html">history</a>)). See <a href="c:\users\jamlung\documents\gofsh\fsh-tutorial-master\fishexample\output\qa.min.html">Errors Only</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.65</span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = fish, Canonical = http://example.org/fhir/fish</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Version Check:</td><td>0.1.0: <span stlye="color: marron; font-weight: bold">No entry in the package-list.json file for this version</span></td></tr>
+ <tr><td>Supressed Messages:</td><td>No Suppressed Issues
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAI0lEQVR42u3QIQEAAAACIL/6/4MvTAQOkLYBAAB4kAAAANwMad9AqkRjgNAAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> fish</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://example.org/fhir/fish</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+</table><para>Templates: fhir.base.template#current</para></div></td></tr>
+ <tr><td>HL7 Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
+</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://example.org/fhir/fish (Problem #1 with package-list.json at http://example.org/fhir/fish: http://example.org/fhir/fish/package-list.json)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 36, errors = 0, warn = 2, info = 0</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>36</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_jamlung_Documents_gofsh_fsh-tutorial-master_FishExample_fsh-generated_resources_ImplementationGuide-fish"><b>C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\ImplementationGuide-fish</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_jamlung_Documents_gofsh_fsh-tutorial-master_FishExample_fsh-generated_resources_Patient-Shorty"><b>C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\Patient-Shorty</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_jamlung_Documents_gofsh_fsh-tutorial-master_FishExample_fsh-generated_resources_StructureDefinition-fish-patient"><b>C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\StructureDefinition-fish-patient</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_jamlung_Documents_gofsh_fsh-tutorial-master_FishExample_fsh-generated_resources_StructureDefinition-fish-species"><b>C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\StructureDefinition-fish-species</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_jamlung_Documents_gofsh_fsh-tutorial-master_FishExample_fsh-generated_resources_StructureDefinition-veterinarian"><b>C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\StructureDefinition-veterinarian</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_jamlung_Documents_gofsh_fsh-tutorial-master_FishExample_fsh-generated_resources_ValueSet-fish-species-value-set"><b>C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\ValueSet-fish-species-value-set</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a></h2>
+ <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Patient/Shorty.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Patient-Shorty.change.history.html#3258fa90-0ff7-40d5-98b7-a97a68fdcb22">Patient-Shorty.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Patient-Shorty.html#f55d3f01-675d-4666-b56e-2d49df11ebac">Patient-Shorty.html#/html/body/div/div/div/p/a at Line 195, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Patient-Shorty.json.html#64e5c079-9a90-4a0a-91c2-9a1e4934216d">Patient-Shorty.json.html#/html/body/div/div/div/p/a at Line 232, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Patient-Shorty.ttl.html#a04bb3a8-56ad-47a8-a51d-cbb07466bd92">Patient-Shorty.ttl.html#/html/body/div/div/div/p/a at Line 244, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Patient-Shorty.xml.html#a05d74bd-25a1-46cf-a812-75d672454b8b">Patient-Shorty.xml.html#/html/body/div/div/div/p/a at Line 222, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-patient-definitions.html#9e3e1957-8c16-4fa3-bdc3-f7976a1741f5">StructureDefinition-fish-patient-definitions.html#/html/body/div/div/div/p/a at Line 743, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-patient-examples.html#d5ae62d3-eec5-4fcb-88e9-9a7150e43d7e">StructureDefinition-fish-patient-examples.html#/html/body/div/div/div/p/a at Line 263, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-patient-mappings.html#9311d38a-271b-43c2-ad4c-19d88a7b8dc2">StructureDefinition-fish-patient-mappings.html#/html/body/div/div/div/p/a at Line 348, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-patient.html#9e0f74ea-f967-4b06-86c3-033c48924aa9">StructureDefinition-fish-patient.html#/html/body/div/div/div/p/a at Line 717, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-patient.profile.history.html#7e82d78b-6fcc-4e3c-9a2b-6bacf113b132">StructureDefinition-fish-patient.profile.history.html#/html/body/div/div/div/p/a at Line 241, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-patient.profile.json.html#52f8173a-cd6a-482c-b802-cf845914767c">StructureDefinition-fish-patient.profile.json.html#/html/body/div/div/div/p/a at Line 2581, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-patient.profile.ttl.html#5dc4a449-52f8-42a2-bf10-7e8f8c9d8ffa">StructureDefinition-fish-patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 2275, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-patient.profile.xml.html#d3ab9575-c44e-47df-8412-6f47556f4f27">StructureDefinition-fish-patient.profile.xml.html#/html/body/div/div/div/p/a at Line 2362, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-species-definitions.html#4e1b2294-60af-4099-82b0-b02716bdcd10">StructureDefinition-fish-species-definitions.html#/html/body/div/div/div/p/a at Line 289, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-species-mappings.html#9e6dd382-2a4a-431d-b9b4-9e653e9c8e60">StructureDefinition-fish-species-mappings.html#/html/body/div/div/div/p/a at Line 249, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-species.html#51531a32-7a11-4564-ab85-110e6163971a">StructureDefinition-fish-species.html#/html/body/div/div/div/p/a at Line 493, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-species.profile.history.html#9e26a627-bca4-4596-a12f-a7b688eea992">StructureDefinition-fish-species.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-species.profile.json.html#f506041c-7798-4fed-b664-dd92fe56bebe">StructureDefinition-fish-species.profile.json.html#/html/body/div/div/div/p/a at Line 588, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-species.profile.ttl.html#3b50f7ae-0ac1-4b02-bdcc-3b4d37e19ae4">StructureDefinition-fish-species.profile.ttl.html#/html/body/div/div/div/p/a at Line 552, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-fish-species.profile.xml.html#f0948e04-1c7b-4852-a52e-773059e67df8">StructureDefinition-fish-species.profile.xml.html#/html/body/div/div/div/p/a at Line 537, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-veterinarian-definitions.html#c45a89be-594c-46c3-9ba6-8ce12f845c03">StructureDefinition-veterinarian-definitions.html#/html/body/div/div/div/p/a at Line 507, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-veterinarian-examples.html#86a080e0-4a36-43a5-bf26-b35833efd55c">StructureDefinition-veterinarian-examples.html#/html/body/div/div/div/p/a at Line 242, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-veterinarian-mappings.html#15250a95-a57f-47f5-bd3a-68178e2ed7e8">StructureDefinition-veterinarian-mappings.html#/html/body/div/div/div/p/a at Line 299, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-veterinarian.html#7248daff-4757-4158-ba98-f888576b2037">StructureDefinition-veterinarian.html#/html/body/div/div/div/p/a at Line 579, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-veterinarian.profile.history.html#4b0fcfd0-2a7b-4f9f-8f5b-0c2633be80fe">StructureDefinition-veterinarian.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-veterinarian.profile.json.html#aca11e97-fb37-45a6-a174-a8ca053e473f">StructureDefinition-veterinarian.profile.json.html#/html/body/div/div/div/p/a at Line 1517, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-veterinarian.profile.ttl.html#47e1a7aa-c0e5-443a-8592-bd8d5fa40a10">StructureDefinition-veterinarian.profile.ttl.html#/html/body/div/div/div/p/a at Line 1362, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-veterinarian.profile.xml.html#362c5f0d-c62d-4678-80fb-9715694d3e40">StructureDefinition-veterinarian.profile.xml.html#/html/body/div/div/div/p/a at Line 1394, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-fish-species-value-set.change.history.html#e45ef341-5c70-477e-ad72-35c35f6095cf">ValueSet-fish-species-value-set.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-fish-species-value-set.html#2837b766-384c-4069-b8de-b4cc3efa451d">ValueSet-fish-species-value-set.html#/html/body/div/div/div/p/a at Line 257, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-fish-species-value-set.json.html#fb224615-c150-4d5c-9013-f654243a1dcf">ValueSet-fish-species-value-set.json.html#/html/body/div/div/div/p/a at Line 237, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-fish-species-value-set.ttl.html#e5305816-21b8-42cd-934a-755b05ffbe0d">ValueSet-fish-species-value-set.ttl.html#/html/body/div/div/div/p/a at Line 244, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-fish-species-value-set.xml.html#334cffb5-39f0-40d8-a9cb-9d4b3951bcf0">ValueSet-fish-species-value-set.xml.html#/html/body/div/div/div/p/a at Line 230, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="artifacts.html#576faeee-f1b3-4d5d-b7af-8bd707da324e">artifacts.html#/html/body/div/div/div/p/a at Line 260, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="index.html#ad164824-cf2a-4c82-abd1-6a62f5a2d040">index.html#/html/body/div/div/div/p/a at Line 189, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="toc.html#ae2dc82b-2bcf-4dee-b7f0-cbbb74f506f1">toc.html#/html/body/div/div/div/p/a at Line 146, column 28</a></b></td><td><b>error</b></td><td><b>The link 'cod@reef.gov' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_jamlung_Documents_gofsh_fsh-tutorial-master_FishExample_fsh-generated_resources_ImplementationGuide-fish"> </a>
+<h2><a href="ImplementationGuide-fish.html">C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\ImplementationGuide-fish.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ImplementationGuide/fish: ImplementationGuide</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_jamlung_Documents_gofsh_fsh-tutorial-master_FishExample_fsh-generated_resources_Patient-Shorty"> </a>
+<h2><a href="Patient-Shorty.html">C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\Patient-Shorty.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Patient/Shorty: Patient (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://example.org/fhir/fish/StructureDefinition/fish-patient</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_jamlung_Documents_gofsh_fsh-tutorial-master_FishExample_fsh-generated_resources_StructureDefinition-fish-patient"> </a>
+<h2><a href="StructureDefinition-fish-patient.html">C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\StructureDefinition-fish-patient.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/fish-patient: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_jamlung_Documents_gofsh_fsh-tutorial-master_FishExample_fsh-generated_resources_StructureDefinition-fish-species"> </a>
+<h2><a href="StructureDefinition-fish-species.html">C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\StructureDefinition-fish-species.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/fish-species: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_jamlung_Documents_gofsh_fsh-tutorial-master_FishExample_fsh-generated_resources_StructureDefinition-veterinarian"> </a>
+<h2><a href="StructureDefinition-veterinarian.html">C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\StructureDefinition-veterinarian.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/veterinarian: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/veterinarian')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_jamlung_Documents_gofsh_fsh-tutorial-master_FishExample_fsh-generated_resources_ValueSet-fish-species-value-set"> </a>
+<h2><a href="ValueSet-fish-species-value-set.html">C:\Users\jamlung\Documents\gofsh\fsh-tutorial-master\FishExample\fsh-generated\resources\ValueSet-fish-species-value-set.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/fish-species-value-set: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+</body>
+</html>
