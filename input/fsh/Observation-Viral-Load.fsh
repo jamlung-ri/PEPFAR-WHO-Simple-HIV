@@ -8,7 +8,7 @@ Description:    "Reason for HIV viral load test"
 * code = LNC#25836-8
 * value[x] only Quantity
 * extension contains VL_reason named estAge 0..1
-    Extension:   VL_reason
+    Extension:   VL_reason 
     Id:          VL-reason
     Title:       "Reason for HIV viral load test"
     Description: "Whether the viral load is being tested for routine monitoring on a set schedule or for targeted monitoring for suspected treatment failure"
