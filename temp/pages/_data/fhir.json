@@ -5,17 +5,17 @@
   "igName": "FishImplementationGuide",
   "packageId": "fish",
   "igVer": "0.1.0",
-  "errorCount": 2,
+  "errorCount": 6,
   "version": "4.0.1",
   "revision": "a53ec6ee1b",
   "versionFull": "4.0.1-a53ec6ee1b",
   "toolingVersion": "4.5.0",
   "toolingRevision": "3",
   "toolingVersionFull": "4.5.0 (3)",
-  "totalFiles": 12,
-  "processedFiles": 21,
-  "genDate": "Thu, Apr 1, 2021 14:28-0400",
-  "genDay": "01/04/2021",
+  "totalFiles": 15,
+  "processedFiles": 24,
+  "genDate": "Fri, Apr 2, 2021 13:49-0400",
+  "genDay": "02/04/2021",
   "ig": {
     "id": "fish",
     "name": "FishImplementationGuide",
@@ -33,7 +33,7 @@
         ]
       }
     ],
-    "date": "2021-04-01T14:28:14-04:00",
+    "date": "2021-04-02T13:49:10-04:00",
     "description": "An example of how FSH can be used to create an IG about fish",
     "fhirVersion": "4.0.1"
   }

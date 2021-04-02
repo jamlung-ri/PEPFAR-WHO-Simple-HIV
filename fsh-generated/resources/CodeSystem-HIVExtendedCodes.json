@@ -18,7 +18,17 @@
       "code": "Restarting",
       "display": "Restarting ART",
       "definition": "Client is restarting ART after stopping treatment for any reason"
+    },
+    {
+      "code": "Routine",
+      "display": "Routine viral load test",
+      "definition": "Routine refers to viral load tests obtained at standard intervals following ART initiation to monitor viral load response to ART"
+    },
+    {
+      "code": "Targeted",
+      "display": "Targeted viral load monitoring",
+      "definition": "Targeted refers to viral load tests obtained based on a specific clinical indication (such as concern about disease progression or failure to respond to ART)"
     }
   ],
-  "count": 2
+  "count": 4
 }

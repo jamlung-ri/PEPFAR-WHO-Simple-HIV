@@ -137,9 +137,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <li>
          <a href="#4">Terminology: Code Systems</a>
       </li>
-      <li>
-         <a href="#5">Example: Example Instances</a>
-      </li>
    </ul>
 </div>
 <div>
@@ -153,14 +150,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-fish-patient.html" title="StructureDefinition/fish-patient">Fish Patient</a>
-               </td>
-               <td>
-<p>A patient that is a type of fish.</p>
-</td>
-            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-HIV-MedStatement.html" title="StructureDefinition/HIV-MedStatement">HIV MedicationStatement - ART</a>
@@ -179,10 +168,26 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-veterinarian.html" title="StructureDefinition/veterinarian">Veterinarian</a>
+                  <a href="StructureDefinition-Observation-HIV-Status.html" title="StructureDefinition/Observation-HIV-Status">Observation - HIV Status</a>
                </td>
                <td>
-<p>A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers.</p>
+<p>HIV status reported after applying the HIV testing algorithm. No single HIV test can provide an HIV-positive diagnosis.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Observation-Key-Pop.html" title="StructureDefinition/Observation-Key-Pop">Observation - Key Population</a>
+               </td>
+               <td>
+<p>The type of  key population that the client is included in</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Observation-Viral-Load.html" title="StructureDefinition/Observation-Viral-Load">Observation - Viral Load Test</a>
+               </td>
+               <td>
+<p>Reason for HIV viral load test</p>
 </td>
             </tr>
          </tbody>
@@ -215,10 +220,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-fish-species.html" title="StructureDefinition/fish-species">Fish Species</a>
+                  <a href="StructureDefinition-VL-reason.html" title="StructureDefinition/VL-reason">Reason for HIV viral load test</a>
                </td>
                <td>
-<p>The species of the fish.</p>
+<p>Whether the viral load is being tested for routine monitoring on a set schedule or for targeted monitoring for suspected treatment failure</p>
 </td>
             </tr>
          </tbody>
@@ -243,10 +248,34 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-fish-species-value-set.html" title="ValueSet/fish-species-value-set">Fish Species Value Set</a>
+                  <a href="ValueSet-HIVGender.html" title="ValueSet/HIVGender">Gender values</a>
                </td>
                <td>
-<p>Codes describing various species of fish, taken from SNOMED-CT.</p>
+<p>Codes describing the gender of the client</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-HIVStatusValues.html" title="ValueSet/HIVStatusValues">HIV Status values</a>
+               </td>
+               <td>
+<p>Codes describing whether the client received a positive HIV test result</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-KeyPopValues.html" title="ValueSet/KeyPopValues">Key Population values</a>
+               </td>
+               <td>
+<p>Codes describing the type of  key population that the client is included in</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-VLReasonValues.html" title="ValueSet/VLReasonValues">Reason for HIV viral load test values</a>
+               </td>
+               <td>
+<p>Codes describing the reason for HIV viral load test</p>
 </td>
             </tr>
          </tbody>
@@ -272,23 +301,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="5"> </a>
-   <h3>Example: Example Instances </h3>
-   <p>
-    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Patient-Shorty.html" title="Patient/Shorty">Shorty Example</a>
-               </td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
 </div>
 
 </div>
@@ -310,8 +322,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="cd65104a-c264-441f-a7e8-fe6c048a4aee">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="cod@reef.gov"></a>.  Package fish#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Apr 1, 2021 14:28-0400">2021-04-01</span>
+        <p><a name="8885aa9b-7fa5-47cd-871d-bf69e8e22157">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="cod@reef.gov"></a>.  Package fish#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 2, 2021 13:49-0400">2021-04-02</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

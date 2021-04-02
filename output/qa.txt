@@ -1,36 +1,33 @@
 ﻿FishImplementationGuide : Validation Results
 =========================================
 
-err = 2, warn = 6, info = 0
+err = 6, warn = 9, info = 0
 IG Publisher Version: 1.1.65
-Generated Thu Apr 01 14:29:33 EDT 2021. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)
+Generated Fri Apr 02 13:49:57 EDT 2021. FHIR version 4.0.1 for fish#0.1.0 (canonical = http://example.org/fhir/fish)
 
- Build Errors : 76 / 1 / 0
+ Build Errors : 94 / 0 / 0
  C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\CodeSystem-HIVExtendedCodes : 0 / 0 / 1
- C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ImplementationGuide-fish : 0 / 0 / 1
- C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\Patient-Shorty : 0 / 0 / 1
+ C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ImplementationGuide-fish : 0 / 1 / 1
  C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-ARTStartType : 0 / 1 / 1
  C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-HIV-MedStatement : 2 / 1 / 1
- C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-HIV-patient : 0 / 1 / 1
+ C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-HIV-patient : 2 / 1 / 1
+ C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-Observation-HIV-Status : 0 / 1 / 1
+ C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-Observation-Key-Pop : 2 / 1 / 1
+ C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-Observation-Viral-Load : 0 / 1 / 1
+ C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-VL-reason : 0 / 1 / 1
  C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-estimatedAge : 0 / 1 / 1
- C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-fish-patient : 0 / 0 / 1
- C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-fish-species : 0 / 0 / 1
- C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-veterinarian : 0 / 1 / 1
  C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ValueSet-ARTStartTypeValues : 0 / 0 / 1
- C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ValueSet-fish-species-value-set : 0 / 0 / 1
+ C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ValueSet-HIVGender : 0 / 0 / 1
+ C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ValueSet-HIVStatusValues : 0 / 0 / 1
+ C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ValueSet-KeyPopValues : 0 / 0 / 1
+ C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ValueSet-VLReasonValues : 0 / 0 / 1
 </table>
 == n/a ==
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/Shorty.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\CodeSystem-HIVExtendedCodes.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\CodeSystem-HIVExtendedCodes.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\CodeSystem-HIVExtendedCodes.json.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\CodeSystem-HIVExtendedCodes.ttl.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\CodeSystem-HIVExtendedCodes.xml.html#/html/body/div/div/div/p/a at Line 234, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\Patient-Shorty.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\Patient-Shorty.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\Patient-Shorty.json.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\Patient-Shorty.ttl.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\Patient-Shorty.xml.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\CodeSystem-HIVExtendedCodes.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\CodeSystem-HIVExtendedCodes.json.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\CodeSystem-HIVExtendedCodes.ttl.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\CodeSystem-HIVExtendedCodes.xml.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-ARTStartType-definitions.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-ARTStartType-mappings.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-ARTStartType.html#/html/body/div/div/div/p/a at Line 493, column 28: The link 'cod@reef.gov' for "" cannot be resolved
@@ -46,14 +43,45 @@ ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureD
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-MedStatement.profile.json.html#/html/body/div/div/div/p/a at Line 1823, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-MedStatement.profile.ttl.html#/html/body/div/div/div/p/a at Line 1640, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-MedStatement.profile.xml.html#/html/body/div/div/div/p/a at Line 1676, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-patient-definitions.html#/html/body/div/div/div/p/a at Line 733, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-patient-definitions.html#/html/body/div/div/div/p/a at Line 731, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-patient-examples.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-patient-mappings.html#/html/body/div/div/div/p/a at Line 353, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-patient.html#/html/body/div/div/div/p/a at Line 734, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-patient.html#/html/body/div/div/div/p/a at Line 736, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-patient.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-patient.profile.json.html#/html/body/div/div/div/p/a at Line 2556, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-patient.profile.json.html#/html/body/div/div/div/p/a at Line 2553, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 2253, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-patient.profile.xml.html#/html/body/div/div/div/p/a at Line 2339, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-HIV-patient.profile.xml.html#/html/body/div/div/div/p/a at Line 2336, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-HIV-Status-definitions.html#/html/body/div/div/div/p/a at Line 804, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-HIV-Status-examples.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-HIV-Status-mappings.html#/html/body/div/div/div/p/a at Line 404, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-HIV-Status.html#/html/body/div/div/div/p/a at Line 811, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-HIV-Status.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-HIV-Status.profile.json.html#/html/body/div/div/div/p/a at Line 3046, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-HIV-Status.profile.ttl.html#/html/body/div/div/div/p/a at Line 2719, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-HIV-Status.profile.xml.html#/html/body/div/div/div/p/a at Line 2792, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Key-Pop-definitions.html#/html/body/div/div/div/p/a at Line 804, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Key-Pop-examples.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Key-Pop-mappings.html#/html/body/div/div/div/p/a at Line 404, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Key-Pop.html#/html/body/div/div/div/p/a at Line 811, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Key-Pop.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Key-Pop.profile.json.html#/html/body/div/div/div/p/a at Line 3046, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Key-Pop.profile.ttl.html#/html/body/div/div/div/p/a at Line 2719, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Key-Pop.profile.xml.html#/html/body/div/div/div/p/a at Line 2792, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Viral-Load-definitions.html#/html/body/div/div/div/p/a at Line 795, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Viral-Load-examples.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Viral-Load-mappings.html#/html/body/div/div/div/p/a at Line 399, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Viral-Load.html#/html/body/div/div/div/p/a at Line 812, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Viral-Load.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Viral-Load.profile.json.html#/html/body/div/div/div/p/a at Line 3030, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Viral-Load.profile.ttl.html#/html/body/div/div/div/p/a at Line 2707, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-Observation-Viral-Load.profile.xml.html#/html/body/div/div/div/p/a at Line 2774, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-VL-reason-definitions.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-VL-reason-mappings.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-VL-reason.html#/html/body/div/div/div/p/a at Line 493, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-VL-reason.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-VL-reason.profile.json.html#/html/body/div/div/div/p/a at Line 588, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-VL-reason.profile.ttl.html#/html/body/div/div/div/p/a at Line 552, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-VL-reason.profile.xml.html#/html/body/div/div/div/p/a at Line 538, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-estimatedAge-definitions.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-estimatedAge-mappings.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-estimatedAge.html#/html/body/div/div/div/p/a at Line 462, column 28: The link 'cod@reef.gov' for "" cannot be resolved
@@ -61,48 +89,39 @@ ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureD
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-estimatedAge.profile.json.html#/html/body/div/div/div/p/a at Line 517, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-estimatedAge.profile.ttl.html#/html/body/div/div/div/p/a at Line 492, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-estimatedAge.profile.xml.html#/html/body/div/div/div/p/a at Line 476, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-patient-definitions.html#/html/body/div/div/div/p/a at Line 743, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-patient-examples.html#/html/body/div/div/div/p/a at Line 263, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-patient-mappings.html#/html/body/div/div/div/p/a at Line 348, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-patient.html#/html/body/div/div/div/p/a at Line 717, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-patient.profile.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-patient.profile.json.html#/html/body/div/div/div/p/a at Line 2581, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 2275, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-patient.profile.xml.html#/html/body/div/div/div/p/a at Line 2362, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-species-definitions.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-species-mappings.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-species.html#/html/body/div/div/div/p/a at Line 493, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-species.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-species.profile.json.html#/html/body/div/div/div/p/a at Line 588, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-species.profile.ttl.html#/html/body/div/div/div/p/a at Line 552, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-fish-species.profile.xml.html#/html/body/div/div/div/p/a at Line 537, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-veterinarian-definitions.html#/html/body/div/div/div/p/a at Line 507, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-veterinarian-examples.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-veterinarian-mappings.html#/html/body/div/div/div/p/a at Line 299, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-veterinarian.html#/html/body/div/div/div/p/a at Line 579, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-veterinarian.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-veterinarian.profile.json.html#/html/body/div/div/div/p/a at Line 1517, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-veterinarian.profile.ttl.html#/html/body/div/div/div/p/a at Line 1362, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\StructureDefinition-veterinarian.profile.xml.html#/html/body/div/div/div/p/a at Line 1394, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-ARTStartTypeValues.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-ARTStartTypeValues.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-ARTStartTypeValues.json.html#/html/body/div/div/div/p/a at Line 230, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-ARTStartTypeValues.ttl.html#/html/body/div/div/div/p/a at Line 239, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-ARTStartTypeValues.xml.html#/html/body/div/div/div/p/a at Line 225, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-fish-species-value-set.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-fish-species-value-set.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-fish-species-value-set.json.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-fish-species-value-set.ttl.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-fish-species-value-set.xml.html#/html/body/div/div/div/p/a at Line 230, column 28: The link 'cod@reef.gov' for "" cannot be resolved
-ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\artifacts.html#/html/body/div/div/div/p/a at Line 329, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-ARTStartTypeValues.json.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-ARTStartTypeValues.ttl.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-ARTStartTypeValues.xml.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-HIVGender.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-HIVGender.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-HIVGender.json.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-HIVGender.ttl.html#/html/body/div/div/div/p/a at Line 252, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-HIVGender.xml.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-HIVStatusValues.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-HIVStatusValues.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-HIVStatusValues.json.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-HIVStatusValues.ttl.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-HIVStatusValues.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-KeyPopValues.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-KeyPopValues.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-KeyPopValues.json.html#/html/body/div/div/div/p/a at Line 252, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-KeyPopValues.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-KeyPopValues.xml.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-VLReasonValues.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-VLReasonValues.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-VLReasonValues.json.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-VLReasonValues.ttl.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\ValueSet-VLReasonValues.xml.html#/html/body/div/div/div/p/a at Line 230, column 28: The link 'cod@reef.gov' for "" cannot be resolved
+ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\artifacts.html#/html/body/div/div/div/p/a at Line 341, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\index.html#/html/body/div/div/div/p/a at Line 189, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 ERROR: C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\output\toc.html#/html/body/div/div/div/p/a at Line 146, column 28: The link 'cod@reef.gov' for "" cannot be resolved
 == C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\CodeSystem-HIVExtendedCodes.json ==
 INFORMATION: CodeSystem/HIVExtendedCodes: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ImplementationGuide-fish.json ==
 INFORMATION: ImplementationGuide/fish: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
-== C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\Patient-Shorty.json ==
-INFORMATION: Patient/Shorty: Patient: Validate resource against profile http://example.org/fhir/fish/StructureDefinition/fish-patient
+WARNING: ImplementationGuide/fish: ImplementationGuide.definition.resource[2].description: value should not start or finish with whitespace
 == C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-ARTStartType.json ==
 INFORMATION: StructureDefinition/ARTStartType: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/ARTStartType'): The Implementation Guide contains no examples for this extension
@@ -112,19 +131,34 @@ ERROR: StructureDefinition/HIV-MedStatement: StructureDefinition.snapshot.elemen
 ERROR: StructureDefinition/HIV-MedStatement: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: The code "1234" is not valid in the system http://www.nlm.nih.gov/research/umls/rxnorm; The code provided (http://www.nlm.nih.gov/research/umls/rxnorm#1234) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://www.nlm.nih.gov/research/umls/rxnorm#1234'
 WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/HIV-MedStatement'): The Implementation Guide contains no examples for this profile
 == C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-HIV-patient.json ==
+ERROR: HIV Patient.Patient.gender: Binding http://example.org/fhir/fish/ValueSet/HIVGender is not a subset of binding http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1
 INFORMATION: StructureDefinition/HIV-patient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+ERROR: StructureDefinition/HIV-patient: StructureDefinition: Binding http://example.org/fhir/fish/ValueSet/HIVGender is not a subset of binding http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1
 WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/HIV-patient'): The Implementation Guide contains no examples for this profile
+== C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-Observation-HIV-Status.json ==
+INFORMATION: StructureDefinition/Observation-HIV-Status: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/Observation-HIV-Status'): The Implementation Guide contains no examples for this profile
+== C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-Observation-Key-Pop.json ==
+INFORMATION: StructureDefinition/Observation-Key-Pop: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+ERROR: StructureDefinition/Observation-Key-Pop: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: The code "95715-9" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95715-9) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95715-9'
+ERROR: StructureDefinition/Observation-Key-Pop: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]: The code "95715-9" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95715-9) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95715-9'
+WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/Observation-Key-Pop'): The Implementation Guide contains no examples for this profile
+== C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-Observation-Viral-Load.json ==
+INFORMATION: StructureDefinition/Observation-Viral-Load: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/Observation-Viral-Load'): The Implementation Guide contains no examples for this profile
+== C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-VL-reason.json ==
+INFORMATION: StructureDefinition/VL-reason: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/VL-reason'): The Implementation Guide contains no examples for this extension
 == C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-estimatedAge.json ==
 INFORMATION: StructureDefinition/estimatedAge: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/estimatedAge'): The Implementation Guide contains no examples for this extension
-== C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-fish-patient.json ==
-INFORMATION: StructureDefinition/fish-patient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-== C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-fish-species.json ==
-INFORMATION: StructureDefinition/fish-species: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-== C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\StructureDefinition-veterinarian.json ==
-INFORMATION: StructureDefinition/veterinarian: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/veterinarian'): The Implementation Guide contains no examples for this profile
 == C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ValueSet-ARTStartTypeValues.json ==
 INFORMATION: ValueSet/ARTStartTypeValues: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ValueSet-fish-species-value-set.json ==
-INFORMATION: ValueSet/fish-species-value-set: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ValueSet-HIVGender.json ==
+INFORMATION: ValueSet/HIVGender: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ValueSet-HIVStatusValues.json ==
+INFORMATION: ValueSet/HIVStatusValues: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ValueSet-KeyPopValues.json ==
+INFORMATION: ValueSet/KeyPopValues: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== C:\Users\jamlung\Documents\GitHub\PEPFAR-WHO-Simple-HIV\fsh-generated\resources\ValueSet-VLReasonValues.json ==
+INFORMATION: ValueSet/VLReasonValues: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet

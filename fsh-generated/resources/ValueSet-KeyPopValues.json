@@ -1,0 +1,39 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "KeyPopValues",
+  "id": "KeyPopValues",
+  "title": "Key Population values",
+  "description": "Codes describing the type of  key population that the client is included in",
+  "version": "0.1.0",
+  "url": "http://example.org/fhir/fish/ValueSet/KeyPopValues",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "449344001",
+            "display": "Sex worker (occupation)"
+          },
+          {
+            "code": "76102007",
+            "display": "Male homosexual (finding)"
+          },
+          {
+            "code": "12271241000119109",
+            "display": "Transgender identity (finding)"
+          },
+          {
+            "code": "226034001",
+            "display": "Injecting drug user (finding)"
+          },
+          {
+            "code": "105568001",
+            "display": "In prison (finding)"
+          }
+        ]
+      }
+    ]
+  }
+}

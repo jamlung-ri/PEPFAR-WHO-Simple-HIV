@@ -12,18 +12,18 @@
       ]
     },
     {
+      "url": "http://example.org/fhir/fish/StructureDefinition/VL-reason",
+      "title": "Reason for HIV viral load test",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "http://example.org/fhir/fish/StructureDefinition/estimatedAge",
       "title": "Estimated Age",
       "types": [
         "integer"
-      ]
-    },
-    {
-      "url": "http://example.org/fhir/fish/StructureDefinition/fish-species",
-      "title": "Fish Species",
-      "types": [
-        "CodeableConcept",
-        "CodeableConcept"
       ]
     }
   ],
@@ -38,16 +38,20 @@
       {
         "url": "http://example.org/fhir/fish/StructureDefinition/HIV-patient",
         "title": "HIV Patient"
-      },
-      {
-        "url": "http://example.org/fhir/fish/StructureDefinition/fish-patient",
-        "title": "Fish Patient"
       }
     ],
-    "Practitioner": [
+    "Observation": [
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/veterinarian",
-        "title": "Veterinarian"
+        "url": "http://example.org/fhir/fish/StructureDefinition/Observation-HIV-Status",
+        "title": "Observation - HIV Status"
+      },
+      {
+        "url": "http://example.org/fhir/fish/StructureDefinition/Observation-Key-Pop",
+        "title": "Observation - Key Population"
+      },
+      {
+        "url": "http://example.org/fhir/fish/StructureDefinition/Observation-Viral-Load",
+        "title": "Observation - Viral Load Test"
       }
     ]
   },
@@ -55,10 +59,10 @@
     "http://example.org/fhir/fish/StructureDefinition/ARTStartType": [
       "MedicationStatement"
     ],
-    "http://example.org/fhir/fish/StructureDefinition/estimatedAge": [
-      "Patient"
+    "http://example.org/fhir/fish/StructureDefinition/VL-reason": [
+      "Observation"
     ],
-    "http://example.org/fhir/fish/StructureDefinition/fish-species": [
+    "http://example.org/fhir/fish/StructureDefinition/estimatedAge": [
       "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
@@ -79,6 +83,9 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
       "StructureDefinition.snapshot.element"
     ],
@@ -90,6 +97,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
       "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"

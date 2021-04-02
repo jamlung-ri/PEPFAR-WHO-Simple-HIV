@@ -1,0 +1,20 @@
+---
+---
+<!-- get modelType -->
+{% include fragment-modelType.html id='Observation-Key-Pop' %}
+
+{% include fragment-pagebegin.html %}
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='StructureDefinition' id='Observation-Key-Pop' active='history' %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{modelType}}: Observation_Key_Pop - Change History</h2>
+  <p>Changes in the Observation-Key-Pop {{modelType | downcase}}.</p>
+
+  {%include StructureDefinition-Observation-Key-Pop-history.xhtml%}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

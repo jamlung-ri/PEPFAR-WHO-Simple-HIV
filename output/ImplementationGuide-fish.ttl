@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "FishImplementationGuide"];
   fhir:ImplementationGuide.title [ fhir:value "Fish Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-04-01T14:28:14-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-04-02T13:49:10-04:00"^^xsd:dateTime];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Bill Cod" ];
@@ -296,20 +296,6 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/fish-patient>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fish-patient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Fish Patient" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A patient that is a type of fish." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 1;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://example.org/fhir/fish/StructureDefinition/HIV-MedStatement>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/HIV-MedStatement" ]
        ];
@@ -317,7 +303,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A summary of the ART medication being taken by an HIV patient" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 2;
+       fhir:index 1;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -331,6 +317,20 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A patient that may be diagnosed with HIV, may have a viral load lab, and may be virally suppressed." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/Observation-HIV-Status>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Observation-HIV-Status" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - HIV Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV status reported after applying the HIV testing algorithm. No single HIV test can provide an HIV-positive diagnosis. " ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
        fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
@@ -338,14 +338,28 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/veterinarian>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/veterinarian" ]
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/Observation-Key-Pop>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Observation-Key-Pop" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Veterinarian" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - Key Population" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The type of  key population that the client is included in" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/Observation-Viral-Load>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Observation-Viral-Load" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - Viral Load Test" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reason for HIV viral load test" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -359,7 +373,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Whether the client is ART naive or is restarting ART" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -373,21 +387,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Estimated Age of Patient if date of birth is unavailable" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/fish-species>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fish-species" ]
+         fhir:link <http://example.org/fhir/fish/StructureDefinition/VL-reason>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/VL-reason" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Fish Species" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The species of the fish." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for HIV viral load test" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Whether the viral load is being tested for routine monitoring on a set schedule or for targeted monitoring for suspected treatment failure" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -401,21 +415,63 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing whether the client is ART naive or is restarting ART" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 8;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/ValueSet/fish-species-value-set>;
-         fhir:Reference.reference [ fhir:value "ValueSet/fish-species-value-set" ]
+         fhir:link <http://example.org/fhir/fish/ValueSet/HIVGender>;
+         fhir:Reference.reference [ fhir:value "ValueSet/HIVGender" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Fish Species Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing various species of fish, taken from SNOMED-CT." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Gender values" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing the gender of the client" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.org/fhir/fish/ValueSet/HIVStatusValues>;
+         fhir:Reference.reference [ fhir:value "ValueSet/HIVStatusValues" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Status values" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing whether the client received a positive HIV test result" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.org/fhir/fish/ValueSet/KeyPopValues>;
+         fhir:Reference.reference [ fhir:value "ValueSet/KeyPopValues" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Key Population values" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing the type of  key population that the client is included in" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.org/fhir/fish/ValueSet/VLReasonValues>;
+         fhir:Reference.reference [ fhir:value "ValueSet/VLReasonValues" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for HIV viral load test values" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing the reason for HIV viral load test" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -428,22 +484,6 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Extended Codes" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 10;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Patient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/Patient/Shorty>;
-         fhir:Reference.reference [ fhir:value "Patient/Shorty" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Shorty Example" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://example.org/fhir/fish/StructureDefinition/fish-patient";
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/fish-patient>
-       ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];

@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VLReasonValues",
+  "id": "VLReasonValues",
+  "title": "Reason for HIV viral load test values",
+  "description": "Codes describing the reason for HIV viral load test",
+  "version": "0.1.0",
+  "url": "http://example.org/fhir/fish/ValueSet/VLReasonValues",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+        "concept": [
+          {
+            "code": "Routine"
+          },
+          {
+            "code": "Targeted"
+          }
+        ]
+      }
+    ]
+  }
+}

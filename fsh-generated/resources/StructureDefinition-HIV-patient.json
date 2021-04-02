@@ -80,6 +80,14 @@
             ]
           }
         ]
+      },
+      {
+        "id": "Patient.gender",
+        "path": "Patient.gender",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://example.org/fhir/fish/ValueSet/HIVGender"
+        }
       }
     ]
   }

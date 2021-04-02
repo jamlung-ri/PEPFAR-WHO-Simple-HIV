@@ -16,9 +16,6 @@
       <li>
          <a href="#4">Terminology: Code Systems</a>
       </li>
-      <li>
-         <a href="#5">Example: Example Instances</a>
-      </li>
    </ul>
 </div>
 <div xmlns:html="http://www.w3.org/1999/xhtml"
@@ -33,14 +30,6 @@
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-fish-patient.html"
-                     title="StructureDefinition/fish-patient">Fish Patient</a>
-               </td>
-               <td>{% capture desc %}A patient that is a type of fish.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-HIV-MedStatement.html"
@@ -59,10 +48,26 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-veterinarian.html"
-                     title="StructureDefinition/veterinarian">Veterinarian</a>
+                  <a href="StructureDefinition-Observation-HIV-Status.html"
+                     title="StructureDefinition/Observation-HIV-Status">Observation - HIV Status</a>
                </td>
-               <td>{% capture desc %}A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers.{% endcapture %}
+               <td>{% capture desc %}HIV status reported after applying the HIV testing algorithm. No single HIV test can provide an HIV-positive diagnosis. {% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Observation-Key-Pop.html"
+                     title="StructureDefinition/Observation-Key-Pop">Observation - Key Population</a>
+               </td>
+               <td>{% capture desc %}The type of  key population that the client is included in{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Observation-Viral-Load.html"
+                     title="StructureDefinition/Observation-Viral-Load">Observation - Viral Load Test</a>
+               </td>
+               <td>{% capture desc %}Reason for HIV viral load test{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>
@@ -94,10 +99,10 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-fish-species.html"
-                     title="StructureDefinition/fish-species">Fish Species</a>
+                  <a href="StructureDefinition-VL-reason.html"
+                     title="StructureDefinition/VL-reason">Reason for HIV viral load test</a>
                </td>
-               <td>{% capture desc %}The species of the fish.{% endcapture %}
+               <td>{% capture desc %}Whether the viral load is being tested for routine monitoring on a set schedule or for targeted monitoring for suspected treatment failure{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>
@@ -121,10 +126,30 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-fish-species-value-set.html"
-                     title="ValueSet/fish-species-value-set">Fish Species Value Set</a>
+                  <a href="ValueSet-HIVGender.html" title="ValueSet/HIVGender">Gender values</a>
                </td>
-               <td>{% capture desc %}Codes describing various species of fish, taken from SNOMED-CT.{% endcapture %}
+               <td>{% capture desc %}Codes describing the gender of the client{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-HIVStatusValues.html" title="ValueSet/HIVStatusValues">HIV Status values</a>
+               </td>
+               <td>{% capture desc %}Codes describing whether the client received a positive HIV test result{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-KeyPopValues.html" title="ValueSet/KeyPopValues">Key Population values</a>
+               </td>
+               <td>{% capture desc %}Codes describing the type of  key population that the client is included in{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-VLReasonValues.html" title="ValueSet/VLReasonValues">Reason for HIV viral load test values</a>
+               </td>
+               <td>{% capture desc %}Codes describing the reason for HIV viral load test{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>
@@ -145,22 +170,6 @@
                </td>
                <td>{% capture desc %}Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology.{% endcapture %}
 {{ desc | markdownify}}</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="5"> </a>
-   <h3>Example: Example Instances </h3>
-   <p>{% capture grouping_desc %}These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like{% endcapture %}
-    {{ grouping_desc | markdownify}}</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Patient-Shorty.html" title="Patient/Shorty">Shorty Example</a>
-               </td>
             </tr>
          </tbody>
       </table>

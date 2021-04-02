@@ -10,7 +10,7 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status": "active",
-    "date": "Thu Apr 01 14:28:14 EDT 2021",
+    "date": "Fri Apr 02 13:49:10 EDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "description": "Whether the client is ART naive or is restarting ART",
@@ -31,7 +31,7 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status": "active",
-    "date": "Thu Apr 01 14:28:14 EDT 2021",
+    "date": "Fri Apr 02 13:49:10 EDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "description": "Estimated Age of Patient if date of birth is unavailable",
@@ -41,45 +41,8 @@
       }
     ]
   },
-  "fish-patient": {
-    "index": 2,
-    "url": "http://example.org/fhir/fish/StructureDefinition/fish-patient",
-    "name": "FishPatient",
-    "path": "StructureDefinition-fish-patient.html",
-    "kind": "resource",
-    "type": "Patient",
-    "base": "http://hl7.org/fhir/StructureDefinition/Patient",
-    "basename": "Patient",
-    "basepath": "http://hl7.org/fhir/R4/patient.html",
-    "status": "active",
-    "date": "Thu Apr 01 14:28:14 EDT 2021",
-    "abstract": false,
-    "derivation": "constraint",
-    "description": "A patient that is a type of fish."
-  },
-  "fish-species": {
-    "index": 3,
-    "url": "http://example.org/fhir/fish/StructureDefinition/fish-species",
-    "name": "FishSpecies",
-    "path": "StructureDefinition-fish-species.html",
-    "kind": "complex-type",
-    "type": "Extension",
-    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
-    "basename": "Extension",
-    "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
-    "status": "active",
-    "date": "Thu Apr 01 14:28:14 EDT 2021",
-    "abstract": false,
-    "derivation": "constraint",
-    "description": "The species of the fish.",
-    "contexts": [
-      {
-        "type": "Element"
-      }
-    ]
-  },
   "HIV-MedStatement": {
-    "index": 4,
+    "index": 2,
     "url": "http://example.org/fhir/fish/StructureDefinition/HIV-MedStatement",
     "name": "HIV_MedicationStatement",
     "path": "StructureDefinition-HIV-MedStatement.html",
@@ -89,13 +52,13 @@
     "basename": "MedicationStatement",
     "basepath": "http://hl7.org/fhir/R4/medicationstatement.html",
     "status": "active",
-    "date": "Thu Apr 01 14:28:14 EDT 2021",
+    "date": "Fri Apr 02 13:49:10 EDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "description": "A summary of the ART medication being taken by an HIV patient"
   },
   "HIV-patient": {
-    "index": 5,
+    "index": 3,
     "url": "http://example.org/fhir/fish/StructureDefinition/HIV-patient",
     "name": "HIV_Patient",
     "path": "StructureDefinition-HIV-patient.html",
@@ -105,25 +68,78 @@
     "basename": "Patient",
     "basepath": "http://hl7.org/fhir/R4/patient.html",
     "status": "active",
-    "date": "Thu Apr 01 14:28:14 EDT 2021",
+    "date": "Fri Apr 02 13:49:10 EDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "description": "A patient that may be diagnosed with HIV, may have a viral load lab, and may be virally suppressed."
   },
-  "veterinarian": {
-    "index": 6,
-    "url": "http://example.org/fhir/fish/StructureDefinition/veterinarian",
-    "name": "Veterinarian",
-    "path": "StructureDefinition-veterinarian.html",
+  "Observation-HIV-Status": {
+    "index": 4,
+    "url": "http://example.org/fhir/fish/StructureDefinition/Observation-HIV-Status",
+    "name": "Observation_HIV_Status",
+    "path": "StructureDefinition-Observation-HIV-Status.html",
     "kind": "resource",
-    "type": "Practitioner",
-    "base": "http://hl7.org/fhir/StructureDefinition/Practitioner",
-    "basename": "Practitioner",
-    "basepath": "http://hl7.org/fhir/R4/practitioner.html",
+    "type": "Observation",
+    "base": "http://hl7.org/fhir/StructureDefinition/Observation",
+    "basename": "Observation",
+    "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Thu Apr 01 14:28:14 EDT 2021",
+    "date": "Fri Apr 02 13:49:10 EDT 2021",
     "abstract": false,
     "derivation": "constraint",
-    "description": "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers."
+    "description": "HIV status reported after applying the HIV testing algorithm. No single HIV test can provide an HIV-positive diagnosis. "
+  },
+  "Observation-Key-Pop": {
+    "index": 5,
+    "url": "http://example.org/fhir/fish/StructureDefinition/Observation-Key-Pop",
+    "name": "Observation_Key_Pop",
+    "path": "StructureDefinition-Observation-Key-Pop.html",
+    "kind": "resource",
+    "type": "Observation",
+    "base": "http://hl7.org/fhir/StructureDefinition/Observation",
+    "basename": "Observation",
+    "basepath": "http://hl7.org/fhir/R4/observation.html",
+    "status": "active",
+    "date": "Fri Apr 02 13:49:10 EDT 2021",
+    "abstract": false,
+    "derivation": "constraint",
+    "description": "The type of  key population that the client is included in"
+  },
+  "Observation-Viral-Load": {
+    "index": 6,
+    "url": "http://example.org/fhir/fish/StructureDefinition/Observation-Viral-Load",
+    "name": "Observation_Viral_Load",
+    "path": "StructureDefinition-Observation-Viral-Load.html",
+    "kind": "resource",
+    "type": "Observation",
+    "base": "http://hl7.org/fhir/StructureDefinition/Observation",
+    "basename": "Observation",
+    "basepath": "http://hl7.org/fhir/R4/observation.html",
+    "status": "active",
+    "date": "Fri Apr 02 13:49:10 EDT 2021",
+    "abstract": false,
+    "derivation": "constraint",
+    "description": "Reason for HIV viral load test"
+  },
+  "VL-reason": {
+    "index": 7,
+    "url": "http://example.org/fhir/fish/StructureDefinition/VL-reason",
+    "name": "VL_reason",
+    "path": "StructureDefinition-VL-reason.html",
+    "kind": "complex-type",
+    "type": "Extension",
+    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename": "Extension",
+    "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status": "active",
+    "date": "Fri Apr 02 13:49:10 EDT 2021",
+    "abstract": false,
+    "derivation": "constraint",
+    "description": "Whether the viral load is being tested for routine monitoring on a set schedule or for targeted monitoring for suspected treatment failure",
+    "contexts": [
+      {
+        "type": "Element"
+      }
+    ]
   }
 }

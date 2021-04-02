@@ -17,7 +17,7 @@
    <name value="FishImplementationGuide"/>
    <title value="Fish Implementation Guide"/>
    <status value="draft"/>
-   <date value="2021-04-01T14:28:14-04:00"/>
+   <date value="2021-04-02T13:49:10-04:00"/>
    <contact>
       <name value="Bill Cod"/>
       <telecom>
@@ -62,26 +62,8 @@
 
 
 
-      <grouping id="_ex_example">
-         <name value="Example: Example Instances"/>
-         <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like"/>
-      </grouping>
 
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-fish-patient.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/fish-patient"/>
-         </reference>
-         <name value="Fish Patient"/>
-         <description value="A patient that is a type of fish."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="_str_profile"/>
-      </resource>
+
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
@@ -117,13 +99,43 @@
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-veterinarian.html"/>
+            <valueUri value="StructureDefinition-Observation-HIV-Status.html"/>
          </extension>
          <reference>
-            <reference value="StructureDefinition/veterinarian"/>
+            <reference value="StructureDefinition/Observation-HIV-Status"/>
          </reference>
-         <name value="Veterinarian"/>
-         <description value="A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers."/>
+         <name value="Observation - HIV Status"/>
+         <description value="HIV status reported after applying the HIV testing algorithm. No single HIV test can provide an HIV-positive diagnosis. "/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-Observation-Key-Pop.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/Observation-Key-Pop"/>
+         </reference>
+         <name value="Observation - Key Population"/>
+         <description value="The type of  key population that the client is included in"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-Observation-Viral-Load.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/Observation-Viral-Load"/>
+         </reference>
+         <name value="Observation - Viral Load Test"/>
+         <description value="Reason for HIV viral load test"/>
          <exampleBoolean value="false"/>
          <groupingId value="_str_profile"/>
       </resource>
@@ -162,13 +174,13 @@
             <valueString value="StructureDefinition:extension"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-fish-species.html"/>
+            <valueUri value="StructureDefinition-VL-reason.html"/>
          </extension>
          <reference>
-            <reference value="StructureDefinition/fish-species"/>
+            <reference value="StructureDefinition/VL-reason"/>
          </reference>
-         <name value="Fish Species"/>
-         <description value="The species of the fish."/>
+         <name value="Reason for HIV viral load test"/>
+         <description value="Whether the viral load is being tested for routine monitoring on a set schedule or for targeted monitoring for suspected treatment failure"/>
          <exampleBoolean value="false"/>
          <groupingId value="_str_extension"/>
       </resource>
@@ -192,13 +204,58 @@
             <valueString value="ValueSet"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-fish-species-value-set.html"/>
+            <valueUri value="ValueSet-HIVGender.html"/>
          </extension>
          <reference>
-            <reference value="ValueSet/fish-species-value-set"/>
+            <reference value="ValueSet/HIVGender"/>
          </reference>
-         <name value="Fish Species Value Set"/>
-         <description value="Codes describing various species of fish, taken from SNOMED-CT."/>
+         <name value="Gender values"/>
+         <description value="Codes describing the gender of the client"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-HIVStatusValues.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/HIVStatusValues"/>
+         </reference>
+         <name value="HIV Status values"/>
+         <description value="Codes describing whether the client received a positive HIV test result"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-KeyPopValues.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/KeyPopValues"/>
+         </reference>
+         <name value="Key Population values"/>
+         <description value="Codes describing the type of  key population that the client is included in"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_term_valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VLReasonValues.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VLReasonValues"/>
+         </reference>
+         <name value="Reason for HIV viral load test values"/>
+         <description value="Codes describing the reason for HIV viral load test"/>
          <exampleBoolean value="false"/>
          <groupingId value="_term_valueset"/>
       </resource>
@@ -217,20 +274,6 @@
          <exampleBoolean value="false"/>
          <groupingId value="_term_codesystem"/>
       </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Patient"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Patient-Shorty.html"/>
-         </extension>
-         <reference>
-            <reference value="Patient/Shorty"/>
-         </reference>
-         <name value="Shorty Example"/>
-         <exampleCanonical value="http://example.org/fhir/fish/StructureDefinition/fish-patient"/>
-         <groupingId value="_ex_example"/>
-      </resource>
       <page>
          <nameUrl value="toc.html"/>
          <title value="Table of Contents"/>
@@ -245,11 +288,6 @@
             <title value="Artifacts Summary"/>
             <generation value="html"/>
             <page>
-               <nameUrl value="StructureDefinition-fish-patient.html"/>
-               <title value="Fish Patient"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="StructureDefinition-HIV-MedStatement.html"/>
                <title value="HIV MedicationStatement - ART"/>
                <generation value="generated"/>
@@ -260,8 +298,18 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="StructureDefinition-veterinarian.html"/>
-               <title value="Veterinarian"/>
+               <nameUrl value="StructureDefinition-Observation-HIV-Status.html"/>
+               <title value="Observation - HIV Status"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-Observation-Key-Pop.html"/>
+               <title value="Observation - Key Population"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-Observation-Viral-Load.html"/>
+               <title value="Observation - Viral Load Test"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -275,8 +323,8 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="StructureDefinition-fish-species.html"/>
-               <title value="Fish Species"/>
+               <nameUrl value="StructureDefinition-VL-reason.html"/>
+               <title value="Reason for HIV viral load test"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -285,18 +333,28 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="ValueSet-fish-species-value-set.html"/>
-               <title value="Fish Species Value Set"/>
+               <nameUrl value="ValueSet-HIVGender.html"/>
+               <title value="Gender values"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-HIVStatusValues.html"/>
+               <title value="HIV Status values"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-KeyPopValues.html"/>
+               <title value="Key Population values"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-VLReasonValues.html"/>
+               <title value="Reason for HIV viral load test values"/>
                <generation value="generated"/>
             </page>
             <page>
                <nameUrl value="CodeSystem-HIVExtendedCodes.html"/>
                <title value="HIV Extended Codes"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Patient-Shorty.html"/>
-               <title value="Shorty Example"/>
                <generation value="generated"/>
             </page>
          </page>

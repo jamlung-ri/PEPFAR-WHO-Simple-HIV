@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "HIVStatusValues",
+  "id": "HIVStatusValues",
+  "title": "HIV Status values",
+  "description": "Codes describing whether the client received a positive HIV test result",
+  "version": "0.1.0",
+  "url": "http://example.org/fhir/fish/ValueSet/HIVStatusValues",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "165816005",
+            "display": "Human immunodeficiency virus infection (disorder)"
+          },
+          {
+            "code": "165815009",
+            "display": "Human immunodeficiency virus negative (finding)"
+          },
+          {
+            "code": "419984006",
+            "display": "Inconclusive (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

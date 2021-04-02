@@ -1,0 +1,26 @@
+---
+---
+<!-- get modelType -->
+{% include fragment-modelType.html id='Observation-HIV-Status' %}
+
+{% include fragment-pagebegin.html %}
+<div style="counter-reset: section 5" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='StructureDefinition' id='Observation-HIV-Status' active='mapping' %}
+
+<a name="root"> </a>
+<h2 id="root">{{modelType}}: Observation_HIV_Status - Mappings</h2>
+
+<p>Mappings for the Observation-HIV-Status {{modelType | downcase }}.</p>
+
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='StructureDefinition' id='Observation-HIV-Status' %}
+
+  {%include StructureDefinition-Observation-HIV-Status-maps.xhtml%}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='StructureDefinition' id='Observation-HIV-Status' %}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

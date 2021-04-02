@@ -10,7 +10,15 @@
   "compose": {
     "include": [
       {
-        "system": "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes"
+        "system": "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+        "concept": [
+          {
+            "code": "First-time"
+          },
+          {
+            "code": "Restarting"
+          }
+        ]
       }
     ]
   }

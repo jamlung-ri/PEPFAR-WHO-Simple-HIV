@@ -27,14 +27,6 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/fish-patient"
-        },
-        "name": "Fish Patient",
-        "description": "A patient that is a type of fish.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/HIV-MedStatement"
         },
         "name": "HIV MedicationStatement - ART",
@@ -51,10 +43,26 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/veterinarian"
+          "reference": "StructureDefinition/Observation-HIV-Status"
         },
-        "name": "Veterinarian",
-        "description": "A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers.",
+        "name": "Observation - HIV Status",
+        "description": "HIV status reported after applying the HIV testing algorithm. No single HIV test can provide an HIV-positive diagnosis. ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Observation-Key-Pop"
+        },
+        "name": "Observation - Key Population",
+        "description": "The type of  key population that the client is included in",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Observation-Viral-Load"
+        },
+        "name": "Observation - Viral Load Test",
+        "description": "Reason for HIV viral load test",
         "exampleBoolean": false
       },
       {
@@ -75,10 +83,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/fish-species"
+          "reference": "StructureDefinition/VL-reason"
         },
-        "name": "Fish Species",
-        "description": "The species of the fish.",
+        "name": "Reason for HIV viral load test",
+        "description": "Whether the viral load is being tested for routine monitoring on a set schedule or for targeted monitoring for suspected treatment failure",
         "exampleBoolean": false
       },
       {
@@ -91,10 +99,34 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/fish-species-value-set"
+          "reference": "ValueSet/HIVGender"
         },
-        "name": "Fish Species Value Set",
-        "description": "Codes describing various species of fish, taken from SNOMED-CT.",
+        "name": "Gender values",
+        "description": "Codes describing the gender of the client",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/HIVStatusValues"
+        },
+        "name": "HIV Status values",
+        "description": "Codes describing whether the client received a positive HIV test result",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/KeyPopValues"
+        },
+        "name": "Key Population values",
+        "description": "Codes describing the type of  key population that the client is included in",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/VLReasonValues"
+        },
+        "name": "Reason for HIV viral load test values",
+        "description": "Codes describing the reason for HIV viral load test",
         "exampleBoolean": false
       },
       {
@@ -104,13 +136,6 @@
         "name": "HIV Extended Codes",
         "description": "Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology.",
         "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "Patient/Shorty"
-        },
-        "name": "Shorty Example",
-        "exampleCanonical": "http://example.org/fhir/fish/StructureDefinition/fish-patient"
       }
     ],
     "page": {

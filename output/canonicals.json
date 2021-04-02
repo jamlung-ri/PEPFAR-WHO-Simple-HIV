@@ -35,32 +35,39 @@
     "name": "HIV_Patient"
   },
   {
+    "id": "Observation-HIV-Status",
+    "type": "StructureDefinition",
+    "url": "http://example.org/fhir/fish/StructureDefinition/Observation-HIV-Status",
+    "version": "0.1.0",
+    "name": "Observation_HIV_Status"
+  },
+  {
+    "id": "Observation-Key-Pop",
+    "type": "StructureDefinition",
+    "url": "http://example.org/fhir/fish/StructureDefinition/Observation-Key-Pop",
+    "version": "0.1.0",
+    "name": "Observation_Key_Pop"
+  },
+  {
+    "id": "Observation-Viral-Load",
+    "type": "StructureDefinition",
+    "url": "http://example.org/fhir/fish/StructureDefinition/Observation-Viral-Load",
+    "version": "0.1.0",
+    "name": "Observation_Viral_Load"
+  },
+  {
+    "id": "VL-reason",
+    "type": "StructureDefinition",
+    "url": "http://example.org/fhir/fish/StructureDefinition/VL-reason",
+    "version": "0.1.0",
+    "name": "VL_reason"
+  },
+  {
     "id": "estimatedAge",
     "type": "StructureDefinition",
     "url": "http://example.org/fhir/fish/StructureDefinition/estimatedAge",
     "version": "0.1.0",
     "name": "Estimated_Age"
-  },
-  {
-    "id": "fish-patient",
-    "type": "StructureDefinition",
-    "url": "http://example.org/fhir/fish/StructureDefinition/fish-patient",
-    "version": "0.1.0",
-    "name": "FishPatient"
-  },
-  {
-    "id": "fish-species",
-    "type": "StructureDefinition",
-    "url": "http://example.org/fhir/fish/StructureDefinition/fish-species",
-    "version": "0.1.0",
-    "name": "FishSpecies"
-  },
-  {
-    "id": "veterinarian",
-    "type": "StructureDefinition",
-    "url": "http://example.org/fhir/fish/StructureDefinition/veterinarian",
-    "version": "0.1.0",
-    "name": "Veterinarian"
   },
   {
     "id": "ARTStartTypeValues",
@@ -70,10 +77,31 @@
     "name": "ARTStartTypeValues"
   },
   {
-    "id": "fish-species-value-set",
+    "id": "HIVGender",
     "type": "ValueSet",
-    "url": "http://example.org/fhir/fish/ValueSet/fish-species-value-set",
+    "url": "http://example.org/fhir/fish/ValueSet/HIVGender",
     "version": "0.1.0",
-    "name": "FishSpeciesValueSet"
+    "name": "HIVGender"
+  },
+  {
+    "id": "HIVStatusValues",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/fish/ValueSet/HIVStatusValues",
+    "version": "0.1.0",
+    "name": "HIVStatusValues"
+  },
+  {
+    "id": "KeyPopValues",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/fish/ValueSet/KeyPopValues",
+    "version": "0.1.0",
+    "name": "KeyPopValues"
+  },
+  {
+    "id": "VLReasonValues",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/fish/ValueSet/VLReasonValues",
+    "version": "0.1.0",
+    "name": "VLReasonValues"
   }
 ]

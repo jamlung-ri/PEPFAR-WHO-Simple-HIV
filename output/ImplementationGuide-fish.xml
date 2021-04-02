@@ -11,7 +11,7 @@
   <name value="FishImplementationGuide"/>
   <title value="Fish Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-04-01T14:28:14-04:00"/>
+  <date value="2021-04-02T13:49:10-04:00"/>
   <contact>
     <name value="Bill Cod"/>
     <telecom>
@@ -197,17 +197,6 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/fish-patient"/>
-      </reference>
-      <name value="Fish Patient"/>
-      <description value="A patient that is a type of fish."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/HIV-MedStatement"/>
       </reference>
       <name value="HIV MedicationStatement - ART"/>
@@ -230,10 +219,32 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/veterinarian"/>
+        <reference value="StructureDefinition/Observation-HIV-Status"/>
       </reference>
-      <name value="Veterinarian"/>
-      <description value="A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers."/>
+      <name value="Observation - HIV Status"/>
+      <description value="HIV status reported after applying the HIV testing algorithm. No single HIV test can provide an HIV-positive diagnosis. "/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Observation-Key-Pop"/>
+      </reference>
+      <name value="Observation - Key Population"/>
+      <description value="The type of  key population that the client is included in"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Observation-Viral-Load"/>
+      </reference>
+      <name value="Observation - Viral Load Test"/>
+      <description value="Reason for HIV viral load test"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -263,10 +274,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/fish-species"/>
+        <reference value="StructureDefinition/VL-reason"/>
       </reference>
-      <name value="Fish Species"/>
-      <description value="The species of the fish."/>
+      <name value="Reason for HIV viral load test"/>
+      <description value="Whether the viral load is being tested for routine monitoring on a set schedule or for targeted monitoring for suspected treatment failure"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -285,10 +296,43 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/fish-species-value-set"/>
+        <reference value="ValueSet/HIVGender"/>
       </reference>
-      <name value="Fish Species Value Set"/>
-      <description value="Codes describing various species of fish, taken from SNOMED-CT."/>
+      <name value="Gender values"/>
+      <description value="Codes describing the gender of the client"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/HIVStatusValues"/>
+      </reference>
+      <name value="HIV Status values"/>
+      <description value="Codes describing whether the client received a positive HIV test result"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/KeyPopValues"/>
+      </reference>
+      <name value="Key Population values"/>
+      <description value="Codes describing the type of  key population that the client is included in"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/VLReasonValues"/>
+      </reference>
+      <name value="Reason for HIV viral load test values"/>
+      <description value="Codes describing the reason for HIV viral load test"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -301,16 +345,6 @@
       <name value="HIV Extended Codes"/>
       <description value="Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology."/>
       <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/Shorty"/>
-      </reference>
-      <name value="Shorty Example"/>
-      <exampleCanonical value="http://example.org/fhir/fish/StructureDefinition/fish-patient"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>
