@@ -7,7 +7,7 @@ id: fish
 canonical: http://example.org/fhir/fish
 version: 0.1.0
 name: SimpleHIVImplementationGuide
-title: Simple HVI Implementation Guide
+title: Simple HIV Implementation Guide
 status: draft
 publisher: Joseph Amlung
 contact:
