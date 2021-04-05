@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="HIVExtendedCodes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">First-time<a name="HIVExtendedCodes-First-time"> </a></td><td>First-time user of ART</td><td>Client is ART naive, having never taken ART to treat HIV before</td></tr><tr><td style="white-space:nowrap">Restarting<a name="HIVExtendedCodes-Restarting"> </a></td><td>Restarting ART</td><td>Client is restarting ART after stopping treatment for any reason</td></tr><tr><td style="white-space:nowrap">Routine<a name="HIVExtendedCodes-Routine"> </a></td><td>Routine viral load test</td><td>Routine refers to viral load tests obtained at standard intervals following ART initiation to monitor viral load response to ART</td></tr><tr><td style="white-space:nowrap">Targeted<a name="HIVExtendedCodes-Targeted"> </a></td><td>Targeted viral load monitoring</td><td>Targeted refers to viral load tests obtained based on a specific clinical indication (such as concern about disease progression or failure to respond to ART)</td></tr></table></div>
+  </text>
+  <url value="http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes"/>
+  <version value="0.1.0"/>
+  <name value="HIVExtendedCodes"/>
+  <title value="HIV Extended Codes"/>
+  <status value="active"/>
+  <date value="2021-04-02T13:49:10-04:00"/>
+  <contact>
+    <name value="Bill Cod"/>
+    <telecom>
+      <system value="email"/>
+      <value value="cod@reef.gov"/>
+    </telecom>
+  </contact>
+  <description value="Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology."/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="First-time"/>
+    <display value="First-time user of ART"/>
+    <definition value="Client is ART naive, having never taken ART to treat HIV before"/>
+  </concept>
+  <concept>
+    <code value="Restarting"/>
+    <display value="Restarting ART"/>
+    <definition value="Client is restarting ART after stopping treatment for any reason"/>
+  </concept>
+  <concept>
+    <code value="Routine"/>
+    <display value="Routine viral load test"/>
+    <definition value="Routine refers to viral load tests obtained at standard intervals following ART initiation to monitor viral load response to ART"/>
+  </concept>
+  <concept>
+    <code value="Targeted"/>
+    <display value="Targeted viral load monitoring"/>
+    <definition value="Targeted refers to viral load tests obtained based on a specific clinical indication (such as concern about disease progression or failure to respond to ART)"/>
+  </concept>
+</CodeSystem>
