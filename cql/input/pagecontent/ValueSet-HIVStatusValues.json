@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "id": "HIVStatusValues",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=165816005\">165816005</a></td><td>Human immunodeficiency virus infection (disorder)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=165815009\">165815009</a></td><td>Human immunodeficiency virus negative (finding)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=419984006\">419984006</a></td><td>Inconclusive (qualifier value)</td></tr></table></li></ul></div>"
+  },
+  "url": "http://example.org/fhir/fish/ValueSet/HIVStatusValues",
+  "version": "0.1.0",
+  "name": "HIVStatusValues",
+  "title": "HIV Status values",
+  "status": "active",
+  "date": "2021-04-02T13:49:10-04:00",
+  "contact": [
+    {
+      "name": "Bill Cod",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "cod@reef.gov"
+        }
+      ]
+    }
+  ],
+  "description": "Codes describing whether the client received a positive HIV test result",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "165816005",
+            "display": "Human immunodeficiency virus infection (disorder)"
+          },
+          {
+            "code": "165815009",
+            "display": "Human immunodeficiency virus negative (finding)"
+          },
+          {
+            "code": "419984006",
+            "display": "Inconclusive (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "df484029-9be0-4650-aceb-3d82444abeca",
+  "meta" : {
+    "lastUpdated" : "2021-04-02T13:49:10.789-04:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.org/fhir/fish/ValueSet/ARTStartTypeValues",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "ARTStartTypeValues",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-HIVExtendedCodes.html\">HIV Extended Codes v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-HIVExtendedCodes.html\"><code>http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-fish-CodeSystem-HIVExtendedCodes-First-time\"> </a><a href=\"CodeSystem-HIVExtendedCodes.html#HIVExtendedCodes-First-time\">First-time</a></td><td>First-time user of ART</td><td>Client is ART naive, having never taken ART to treat HIV before</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-fish-CodeSystem-HIVExtendedCodes-Restarting\"> </a><a href=\"CodeSystem-HIVExtendedCodes.html#HIVExtendedCodes-Restarting\">Restarting</a></td><td>Restarting ART</td><td>Client is restarting ART after stopping treatment for any reason</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/fish/ValueSet/ARTStartTypeValues",
+      "version" : "0.1.0",
+      "name" : "ARTStartTypeValues",
+      "title" : "ART Start Type values",
+      "status" : "active",
+      "date" : "2021-04-02T13:49:10-04:00",
+      "contact" : [{
+        "name" : "Bill Cod",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "cod@reef.gov"
+        }]
+      }],
+      "description" : "Codes describing whether the client is ART naive or is restarting ART",
+      "expansion" : {
+        "identifier" : "urn:uuid:cc655688-1192-4476-8b03-1a19d7ae1d76",
+        "timestamp" : "2021-04-02T13:49:33-04:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+          "code" : "First-time",
+          "display" : "First-time user of ART"
+        },
+        {
+          "system" : "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+          "code" : "Restarting",
+          "display" : "Restarting ART"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/fish/ValueSet/HIVGender",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "HIVGender",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">AdministrativeGender v4.0.1 (CodeSystem)</a></li><li>SNOMED CT International edition 31-Jan 2021</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-male\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a></td><td>http://hl7.org/fhir/administrative-gender</td><td>Male</td><td>Male.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-female\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a></td><td>http://hl7.org/fhir/administrative-gender</td><td>Female</td><td>Female.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-other\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other\">other</a></td><td>http://hl7.org/fhir/administrative-gender</td><td>Other</td><td>Other.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-12271241000119109\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=12271241000119109\">12271241000119109</a></td><td>http://snomed.info/sct</td><td>Transgender identity (finding)</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/fish/ValueSet/HIVGender",
+      "version" : "0.1.0",
+      "name" : "HIVGender",
+      "title" : "Gender values",
+      "status" : "active",
+      "date" : "2021-04-02T13:49:10-04:00",
+      "contact" : [{
+        "name" : "Bill Cod",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "cod@reef.gov"
+        }]
+      }],
+      "description" : "Codes describing the gender of the client",
+      "expansion" : {
+        "identifier" : "urn:uuid:48a923c9-9dc2-4b71-915c-f2745b4b632d",
+        "timestamp" : "2021-04-02T13:49:34-04:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/administrative-gender|4.0.1"
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "male",
+          "display" : "Male"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "female",
+          "display" : "Female"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "other",
+          "display" : "Other"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "12271241000119109",
+          "display" : "Transgender identity (finding)"
+        }]
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2021</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-165816005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=165816005\">165816005</a></td><td>Human immunodeficiency virus infection (disorder)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-165815009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=165815009\">165815009</a></td><td>Human immunodeficiency virus negative (finding)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-419984006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=419984006\">419984006</a></td><td>Inconclusive (qualifier value)</td><td/></tr></table></div>"
+      },
+      "status" : "active",
+      "expansion" : {
+        "identifier" : "urn:uuid:a108fb5f-1ac4-45f1-aed8-fc021ef9571c",
+        "timestamp" : "2021-04-02T16:50:41.279Z",
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "165816005",
+          "display" : "Human immunodeficiency virus infection (disorder)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "165815009",
+          "display" : "Human immunodeficiency virus negative (finding)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "419984006",
+          "display" : "Inconclusive (qualifier value)"
+        }]
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jan 2021</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-449344001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=449344001\">449344001</a></td><td>Sex worker (occupation)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-76102007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=76102007\">76102007</a></td><td>Male homosexual (finding)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-12271241000119109\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=12271241000119109\">12271241000119109</a></td><td>Transgender identity (finding)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-226034001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=226034001\">226034001</a></td><td>Injecting drug user (finding)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-105568001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=105568001\">105568001</a></td><td>In prison (finding)</td><td/></tr></table></div>"
+      },
+      "status" : "active",
+      "expansion" : {
+        "identifier" : "urn:uuid:c00aea43-3c43-4e96-8d05-180658f4deec",
+        "timestamp" : "2021-04-02T17:13:08.104Z",
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "449344001",
+          "display" : "Sex worker (occupation)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "76102007",
+          "display" : "Male homosexual (finding)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "12271241000119109",
+          "display" : "Transgender identity (finding)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "226034001",
+          "display" : "Injecting drug user (finding)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "105568001",
+          "display" : "In prison (finding)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/fish/ValueSet/VLReasonValues",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "VLReasonValues",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-HIVExtendedCodes.html\">HIV Extended Codes v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-HIVExtendedCodes.html\"><code>http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-fish-CodeSystem-HIVExtendedCodes-Routine\"> </a><a href=\"CodeSystem-HIVExtendedCodes.html#HIVExtendedCodes-Routine\">Routine</a></td><td>Routine viral load test</td><td>Routine refers to viral load tests obtained at standard intervals following ART initiation to monitor viral load response to ART</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-fish-CodeSystem-HIVExtendedCodes-Targeted\"> </a><a href=\"CodeSystem-HIVExtendedCodes.html#HIVExtendedCodes-Targeted\">Targeted</a></td><td>Targeted viral load monitoring</td><td>Targeted refers to viral load tests obtained based on a specific clinical indication (such as concern about disease progression or failure to respond to ART)</td></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/fish/ValueSet/VLReasonValues",
+      "version" : "0.1.0",
+      "name" : "VLReasonValues",
+      "title" : "Reason for HIV viral load test values",
+      "status" : "active",
+      "date" : "2021-04-02T13:49:10-04:00",
+      "contact" : [{
+        "name" : "Bill Cod",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "cod@reef.gov"
+        }]
+      }],
+      "description" : "Codes describing the reason for HIV viral load test",
+      "expansion" : {
+        "identifier" : "urn:uuid:90090508-5fb9-4fa7-ae10-272ffd4590f0",
+        "timestamp" : "2021-04-02T13:49:34-04:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+          "code" : "Routine",
+          "display" : "Routine viral load test"
+        },
+        {
+          "system" : "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+          "code" : "Targeted",
+          "display" : "Targeted viral load monitoring"
+        }]
+      }
+    }
+  }]
+}

@@ -1,0 +1,12 @@
+{
+  "url": "http://example.org/fhir/fish/ImplementationGuide/fish",
+  "name": "FishImplementationGuide",
+  "package-id": "fish",
+  "ig-ver": "0.1.0",
+  "date": "Fri, 02 Apr, 2021 13:49:10 -0400",
+  "errs": 6,
+  "warnings": 9,
+  "hints": 0,
+  "version": "4.0.1",
+  "tool": "4.5.0 (3)"
+}

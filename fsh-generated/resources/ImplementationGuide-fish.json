@@ -3,21 +3,21 @@
   "id": "fish",
   "url": "http://example.org/fhir/fish/ImplementationGuide/fish",
   "version": "0.1.0",
-  "name": "FishImplementationGuide",
-  "title": "Fish Implementation Guide",
+  "name": "SimpleHIVImplementationGuide",
+  "title": "Simple HIV Implementation Guide",
   "status": "draft",
   "contact": [
     {
-      "name": "Bill Cod",
+      "name": "Joseph Amlung",
       "telecom": [
         {
           "system": "email",
-          "value": "cod@reef.gov"
+          "value": "jamlung@regenstrief.org"
         }
       ]
     }
   ],
-  "description": "An example of how FSH can be used to create an IG about fish",
+  "description": "Simple HIV Implementation Guide for CQL Testing (non-normative)",
   "packageId": "fish",
   "license": "CC0-1.0",
   "fhirVersion": [

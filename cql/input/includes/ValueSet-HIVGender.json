@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "id": "HIVGender",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\"><code>http://hl7.org/fhir/administrative-gender</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a></td><td>Male</td><td>Male.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a></td><td>Female</td><td>Female.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other\">other</a></td><td>Other</td><td>Other.</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=12271241000119109\">12271241000119109</a></td><td>Transgender identity (finding)</td></tr></table></li></ul></div>"
+  },
+  "url": "http://example.org/fhir/fish/ValueSet/HIVGender",
+  "version": "0.1.0",
+  "name": "HIVGender",
+  "title": "Gender values",
+  "status": "active",
+  "date": "2021-04-02T13:49:10-04:00",
+  "contact": [
+    {
+      "name": "Bill Cod",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "cod@reef.gov"
+        }
+      ]
+    }
+  ],
+  "description": "Codes describing the gender of the client",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/administrative-gender",
+        "concept": [
+          {
+            "code": "male"
+          },
+          {
+            "code": "female"
+          },
+          {
+            "code": "other"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "12271241000119109",
+            "display": "Transgender identity (finding)"
+          }
+        ]
+      }
+    ]
+  }
+}
