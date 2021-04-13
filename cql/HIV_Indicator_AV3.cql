@@ -42,6 +42,12 @@ define function HIVExtension(domainResource DomainResource, id String):
 
 context Patient
 
+/* define VLreason:
+  [Observation] O
+    let VLreason: singleton from (
+        O.extension E where E.url.value = 'http://regenstrief.org/fhir/StructureDefinition/VL-reason'
+    ) */
+
 define "Living":
       Patient.deceased is null
       or (Patient.deceased as FHIR.boolean).value is false
@@ -59,18 +65,23 @@ define "On ART": //patients on ART that started 6+ months before end of reportin
   exists ["Observation":"HIV1 RNA # Spec NAA+probe"] O
   where MeasurementPeriod includes O.effective   */
 
-define "Routine VL Result in Reporting Period":
+//Note: VL Result should have a VLreason, but that is more complicated than it should be so maybe later
+define "VL Result in Reporting Period":
   exists ["Observation":"HIV1 RNA # Spec NAA+probe"] O
   where O.effective before end of MeasurementPeriod and O.effective after or on start of MeasurementPeriod
-  and HIVExtension("http://example.org/fhir/fish/StructureDefinition/VL-reason",valueCodeableConcept) is "Routine"
 
+
+define "Suppressed VL Result in Reporting Period":
+  exists ["Observation":"HIV1 RNA # Spec NAA+probe"] O
+  where O.effective before end of MeasurementPeriod and O.effective after or on start of MeasurementPeriod
+  and O.value < 1000 'copies/mL'
+
+define "Denominator": "Living" and "HIV Condition" and "On ART" and "VL Result in Reporting Period"
+
+define "Numerator": "Denominator" and "Suppressed VL Result in Reporting Period"
 
 //define "Race": USExtensions(Patient, 'us-core-race')
 
- /* define TestSimpleExtensions:
-  Patient P
-    let birthsex: singleton from (P.extension E where E.url = 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex')
-    where birthsex.value = 'M' */
 
 /* define TestComplexExtensions:
   Patient P
@@ -83,4 +94,4 @@ define "Routine VL Result in Reporting Period":
 
 //define "White": TestComplexExtensions = 'White'
 
-define "Female": Patient.gender = 'female'
+//define "Female": Patient.gender = 'female'
