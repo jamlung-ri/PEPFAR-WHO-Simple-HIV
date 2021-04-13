@@ -4,7 +4,7 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/ARTStartType",
+      "url": "http://regenstrief.org/fhir/StructureDefinition/ARTStartType",
       "title": "ART Start Type",
       "types": [
         "CodeableConcept",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/VL-reason",
+      "url": "http://regenstrief.org/fhir/StructureDefinition/VL-reason",
       "title": "Reason for HIV viral load test",
       "types": [
         "CodeableConcept",
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "url": "http://example.org/fhir/fish/StructureDefinition/estimatedAge",
+      "url": "http://regenstrief.org/fhir/StructureDefinition/estimatedAge",
       "title": "Estimated Age",
       "types": [
         "integer"
@@ -30,41 +30,32 @@
   "profiles": {
     "MedicationStatement": [
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/HIV-MedStatement",
+        "url": "http://regenstrief.org/fhir/StructureDefinition/HIV-MedStatement",
         "title": "HIV MedicationStatement - ART"
       }
     ],
     "Patient": [
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/HIV-patient",
+        "url": "http://regenstrief.org/fhir/StructureDefinition/HIV-patient",
         "title": "HIV Patient"
       }
     ],
     "Observation": [
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/Observation-HIV-Status",
+        "url": "http://regenstrief.org/fhir/StructureDefinition/Observation-HIV-Status",
         "title": "Observation - HIV Status"
       },
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/Observation-Key-Pop",
+        "url": "http://regenstrief.org/fhir/StructureDefinition/Observation-Key-Pop",
         "title": "Observation - Key Population"
       },
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/Observation-Viral-Load",
+        "url": "http://regenstrief.org/fhir/StructureDefinition/Observation-Viral-Load",
         "title": "Observation - Viral Load Test"
       }
     ]
   },
   "usage": {
-    "http://example.org/fhir/fish/StructureDefinition/ARTStartType": [
-      "MedicationStatement"
-    ],
-    "http://example.org/fhir/fish/StructureDefinition/VL-reason": [
-      "Observation"
-    ],
-    "http://example.org/fhir/fish/StructureDefinition/estimatedAge": [
-      "Patient"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -106,6 +97,15 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://regenstrief.org/fhir/StructureDefinition/ARTStartType": [
+      "MedicationStatement"
+    ],
+    "http://regenstrief.org/fhir/StructureDefinition/VL-reason": [
+      "Observation"
+    ],
+    "http://regenstrief.org/fhir/StructureDefinition/estimatedAge": [
+      "Patient"
     ]
   }
 }

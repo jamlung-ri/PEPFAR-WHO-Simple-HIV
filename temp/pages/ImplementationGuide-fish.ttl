@@ -5,29 +5,29 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/fhir/fish/ImplementationGuide/fish> a fhir:ImplementationGuide;
+<http://regenstrief.org/fhir/ImplementationGuide/fish> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "fish"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FishImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/fhir/fish/ImplementationGuide/fish</pre><div><p>An example of how FSH can be used to create an IG about fish</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>SimpleHIVImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://regenstrief.org/fhir/ImplementationGuide/fish</pre><div><p>Simple HIV Implementation Guide for CQL Testing (non-normative)</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://example.org/fhir/fish/ImplementationGuide/fish"];
+  fhir:ImplementationGuide.url [ fhir:value "http://regenstrief.org/fhir/ImplementationGuide/fish"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
-  fhir:ImplementationGuide.name [ fhir:value "FishImplementationGuide"];
-  fhir:ImplementationGuide.title [ fhir:value "Fish Implementation Guide"];
+  fhir:ImplementationGuide.name [ fhir:value "SimpleHIVImplementationGuide"];
+  fhir:ImplementationGuide.title [ fhir:value "Simple HIV Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-04-02T13:49:10-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-04-13T10:27:50-04:00"^^xsd:dateTime];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Bill Cod" ];
+     fhir:ContactDetail.name [ fhir:value "Joseph Amlung" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "cod@reef.gov" ]
+       fhir:ContactPoint.value [ fhir:value "jamlung@regenstrief.org" ]
      ]
   ];
-  fhir:ImplementationGuide.description [ fhir:value "An example of how FSH can be used to create an IG about fish"];
+  fhir:ImplementationGuide.description [ fhir:value "Simple HIV Implementation Guide for CQL Testing (non-normative)"];
   fhir:ImplementationGuide.packageId [ fhir:value "fish"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
@@ -188,7 +188,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://example.org/fhir/fish/history.html" ]
+         fhir:Extension.valueString [ fhir:value "http://regenstrief.org/fhir/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -296,7 +296,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/HIV-MedStatement>;
+         fhir:link <http://regenstrief.org/fhir/StructureDefinition/HIV-MedStatement>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/HIV-MedStatement" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV MedicationStatement - ART" ];
@@ -310,7 +310,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/HIV-patient>;
+         fhir:link <http://regenstrief.org/fhir/StructureDefinition/HIV-patient>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/HIV-patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Patient" ];
@@ -324,7 +324,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/Observation-HIV-Status>;
+         fhir:link <http://regenstrief.org/fhir/StructureDefinition/Observation-HIV-Status>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Observation-HIV-Status" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - HIV Status" ];
@@ -338,7 +338,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/Observation-Key-Pop>;
+         fhir:link <http://regenstrief.org/fhir/StructureDefinition/Observation-Key-Pop>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Observation-Key-Pop" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - Key Population" ];
@@ -352,7 +352,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/Observation-Viral-Load>;
+         fhir:link <http://regenstrief.org/fhir/StructureDefinition/Observation-Viral-Load>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Observation-Viral-Load" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation - Viral Load Test" ];
@@ -366,7 +366,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/ARTStartType>;
+         fhir:link <http://regenstrief.org/fhir/StructureDefinition/ARTStartType>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/ARTStartType" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ART Start Type" ];
@@ -380,7 +380,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/estimatedAge>;
+         fhir:link <http://regenstrief.org/fhir/StructureDefinition/estimatedAge>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/estimatedAge" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estimated Age" ];
@@ -394,7 +394,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/StructureDefinition/VL-reason>;
+         fhir:link <http://regenstrief.org/fhir/StructureDefinition/VL-reason>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/VL-reason" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for HIV viral load test" ];
@@ -408,7 +408,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/ValueSet/ARTStartTypeValues>;
+         fhir:link <http://regenstrief.org/fhir/ValueSet/ARTStartTypeValues>;
          fhir:Reference.reference [ fhir:value "ValueSet/ARTStartTypeValues" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ART Start Type values" ];
@@ -422,7 +422,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/ValueSet/HIVGender>;
+         fhir:link <http://regenstrief.org/fhir/ValueSet/HIVGender>;
          fhir:Reference.reference [ fhir:value "ValueSet/HIVGender" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Gender values" ];
@@ -436,7 +436,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/ValueSet/HIVStatusValues>;
+         fhir:link <http://regenstrief.org/fhir/ValueSet/HIVStatusValues>;
          fhir:Reference.reference [ fhir:value "ValueSet/HIVStatusValues" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Status values" ];
@@ -450,7 +450,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/ValueSet/KeyPopValues>;
+         fhir:link <http://regenstrief.org/fhir/ValueSet/KeyPopValues>;
          fhir:Reference.reference [ fhir:value "ValueSet/KeyPopValues" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Key Population values" ];
@@ -464,7 +464,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/ValueSet/VLReasonValues>;
+         fhir:link <http://regenstrief.org/fhir/ValueSet/VLReasonValues>;
          fhir:Reference.reference [ fhir:value "ValueSet/VLReasonValues" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for HIV viral load test values" ];
@@ -478,7 +478,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes>;
+         fhir:link <http://regenstrief.org/fhir/CodeSystem/HIVExtendedCodes>;
          fhir:Reference.reference [ fhir:value "CodeSystem/HIVExtendedCodes" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Extended Codes" ];
@@ -561,7 +561,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://example.org/fhir/fish/ImplementationGuide/fish.ttl> a owl:Ontology;
+<http://regenstrief.org/fhir/ImplementationGuide/fish.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

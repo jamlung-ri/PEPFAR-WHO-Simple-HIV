@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "fish",
-  "url": "http://example.org/fhir/fish/ImplementationGuide/fish",
+  "url": "http://regenstrief.org/fhir/ImplementationGuide/fish",
   "version": "0.1.0",
   "name": "SimpleHIVImplementationGuide",
   "title": "Simple HIV Implementation Guide",

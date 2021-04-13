@@ -7,7 +7,7 @@
   "title": "HIV Extended Codes",
   "description": "Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology.",
   "version": "0.1.0",
-  "url": "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+  "url": "http://regenstrief.org/fhir/CodeSystem/HIVExtendedCodes",
   "concept": [
     {
       "code": "First-time",

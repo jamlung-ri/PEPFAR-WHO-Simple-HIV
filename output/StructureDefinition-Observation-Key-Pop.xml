@@ -18,17 +18,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="http://example.org/fhir/fish/StructureDefinition/Observation-Key-Pop"/>
+  <url value="http://regenstrief.org/fhir/StructureDefinition/Observation-Key-Pop"/>
   <version value="0.1.0"/>
   <name value="Observation_Key_Pop"/>
   <title value="Observation - Key Population"/>
   <status value="active"/>
-  <date value="2021-04-02T13:49:10-04:00"/>
+  <date value="2021-04-13T10:27:50-04:00"/>
   <contact>
-    <name value="Bill Cod"/>
+    <name value="Joseph Amlung"/>
     <telecom>
       <system value="email"/>
-      <value value="cod@reef.gov"/>
+      <value value="jamlung@regenstrief.org"/>
     </telecom>
   </contact>
   <description value="The type of  key population that the client is included in"/>
@@ -1087,7 +1087,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://example.org/fhir/fish/ValueSet/KeyPopValues"/>
+        <valueSet value="http://regenstrief.org/fhir/ValueSet/KeyPopValues"/>
       </binding>
       <mapping>
         <identity value="sct-concept"/>
@@ -2301,7 +2301,7 @@
       <max value="1"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://example.org/fhir/fish/ValueSet/KeyPopValues"/>
+        <valueSet value="http://regenstrief.org/fhir/ValueSet/KeyPopValues"/>
       </binding>
     </element>
   </differential>

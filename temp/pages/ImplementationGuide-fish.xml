@@ -3,23 +3,23 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="fish"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>FishImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/fhir/fish/ImplementationGuide/fish</pre><div><p>An example of how FSH can be used to create an IG about fish</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>SimpleHIVImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://regenstrief.org/fhir/ImplementationGuide/fish</pre><div><p>Simple HIV Implementation Guide for CQL Testing (non-normative)</p>
 </div></div>
   </text>
-  <url value="http://example.org/fhir/fish/ImplementationGuide/fish"/>
+  <url value="http://regenstrief.org/fhir/ImplementationGuide/fish"/>
   <version value="0.1.0"/>
-  <name value="FishImplementationGuide"/>
-  <title value="Fish Implementation Guide"/>
+  <name value="SimpleHIVImplementationGuide"/>
+  <title value="Simple HIV Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-04-02T13:49:10-04:00"/>
+  <date value="2021-04-13T10:27:50-04:00"/>
   <contact>
-    <name value="Bill Cod"/>
+    <name value="Joseph Amlung"/>
     <telecom>
       <system value="email"/>
-      <value value="cod@reef.gov"/>
+      <value value="jamlung@regenstrief.org"/>
     </telecom>
   </contact>
-  <description value="An example of how FSH can be used to create an IG about fish"/>
+  <description value="Simple HIV Implementation Guide for CQL Testing (non-normative)"/>
   <packageId value="fish"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -125,7 +125,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://example.org/fhir/fish/history.html"/>
+        <valueString value="http://regenstrief.org/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

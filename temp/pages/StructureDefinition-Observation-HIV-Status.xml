@@ -18,17 +18,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="http://example.org/fhir/fish/StructureDefinition/Observation-HIV-Status"/>
+  <url value="http://regenstrief.org/fhir/StructureDefinition/Observation-HIV-Status"/>
   <version value="0.1.0"/>
   <name value="Observation_HIV_Status"/>
   <title value="Observation - HIV Status"/>
   <status value="active"/>
-  <date value="2021-04-02T13:49:10-04:00"/>
+  <date value="2021-04-13T10:27:50-04:00"/>
   <contact>
-    <name value="Bill Cod"/>
+    <name value="Joseph Amlung"/>
     <telecom>
       <system value="email"/>
-      <value value="cod@reef.gov"/>
+      <value value="jamlung@regenstrief.org"/>
     </telecom>
   </contact>
   <description value="HIV status reported after applying the HIV testing algorithm. No single HIV test can provide an HIV-positive diagnosis. "/>
@@ -1087,7 +1087,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://example.org/fhir/fish/ValueSet/HIVStatusValues"/>
+        <valueSet value="http://regenstrief.org/fhir/ValueSet/HIVStatusValues"/>
       </binding>
       <mapping>
         <identity value="sct-concept"/>
@@ -2301,7 +2301,7 @@
       <max value="1"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://example.org/fhir/fish/ValueSet/HIVStatusValues"/>
+        <valueSet value="http://regenstrief.org/fhir/ValueSet/HIVStatusValues"/>
       </binding>
     </element>
   </differential>

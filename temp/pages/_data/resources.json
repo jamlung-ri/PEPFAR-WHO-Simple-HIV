@@ -3,11 +3,11 @@
     "history": false,
     "index": 0,
     "source": "C:\\Users\\jamlung\\Documents\\GitHub\\PEPFAR-WHO-Simple-HIV\\fsh-generated\\resources\\ImplementationGuide-fish.json",
-    "url": "http://example.org/fhir/fish/ImplementationGuide/fish",
-    "name": "FishImplementationGuide",
-    "title": "Fish Implementation Guide",
+    "url": "http://regenstrief.org/fhir/ImplementationGuide/fish",
+    "name": "SimpleHIVImplementationGuide",
+    "title": "Simple HIV Implementation Guide",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colsd",
       "status": "Draft"
@@ -17,11 +17,11 @@
     "history": false,
     "index": 1,
     "source": "fsh-generated/resources/CodeSystem-HIVExtendedCodes.json",
-    "url": "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+    "url": "http://regenstrief.org/fhir/CodeSystem/HIVExtendedCodes",
     "name": "HIVExtendedCodes",
     "title": "HIV Extended Codes",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -31,11 +31,11 @@
     "history": false,
     "index": 2,
     "source": "fsh-generated/resources/StructureDefinition-ARTStartType.json",
-    "url": "http://example.org/fhir/fish/StructureDefinition/ARTStartType",
+    "url": "http://regenstrief.org/fhir/StructureDefinition/ARTStartType",
     "name": "ARTStartType",
     "title": "ART Start Type",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -45,11 +45,11 @@
     "history": false,
     "index": 3,
     "source": "fsh-generated/resources/StructureDefinition-estimatedAge.json",
-    "url": "http://example.org/fhir/fish/StructureDefinition/estimatedAge",
+    "url": "http://regenstrief.org/fhir/StructureDefinition/estimatedAge",
     "name": "Estimated_Age",
     "title": "Estimated Age",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -59,11 +59,11 @@
     "history": false,
     "index": 4,
     "source": "fsh-generated/resources/StructureDefinition-HIV-MedStatement.json",
-    "url": "http://example.org/fhir/fish/StructureDefinition/HIV-MedStatement",
+    "url": "http://regenstrief.org/fhir/StructureDefinition/HIV-MedStatement",
     "name": "HIV_MedicationStatement",
     "title": "HIV MedicationStatement - ART",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -73,11 +73,11 @@
     "history": false,
     "index": 5,
     "source": "fsh-generated/resources/StructureDefinition-HIV-patient.json",
-    "url": "http://example.org/fhir/fish/StructureDefinition/HIV-patient",
+    "url": "http://regenstrief.org/fhir/StructureDefinition/HIV-patient",
     "name": "HIV_Patient",
     "title": "HIV Patient",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -87,11 +87,11 @@
     "history": false,
     "index": 6,
     "source": "fsh-generated/resources/StructureDefinition-Observation-HIV-Status.json",
-    "url": "http://example.org/fhir/fish/StructureDefinition/Observation-HIV-Status",
+    "url": "http://regenstrief.org/fhir/StructureDefinition/Observation-HIV-Status",
     "name": "Observation_HIV_Status",
     "title": "Observation - HIV Status",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -101,11 +101,11 @@
     "history": false,
     "index": 7,
     "source": "fsh-generated/resources/StructureDefinition-Observation-Key-Pop.json",
-    "url": "http://example.org/fhir/fish/StructureDefinition/Observation-Key-Pop",
+    "url": "http://regenstrief.org/fhir/StructureDefinition/Observation-Key-Pop",
     "name": "Observation_Key_Pop",
     "title": "Observation - Key Population",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -115,11 +115,11 @@
     "history": false,
     "index": 8,
     "source": "fsh-generated/resources/StructureDefinition-Observation-Viral-Load.json",
-    "url": "http://example.org/fhir/fish/StructureDefinition/Observation-Viral-Load",
+    "url": "http://regenstrief.org/fhir/StructureDefinition/Observation-Viral-Load",
     "name": "Observation_Viral_Load",
     "title": "Observation - Viral Load Test",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -129,11 +129,11 @@
     "history": false,
     "index": 9,
     "source": "fsh-generated/resources/StructureDefinition-VL-reason.json",
-    "url": "http://example.org/fhir/fish/StructureDefinition/VL-reason",
+    "url": "http://regenstrief.org/fhir/StructureDefinition/VL-reason",
     "name": "VL_reason",
     "title": "Reason for HIV viral load test",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -143,11 +143,11 @@
     "history": false,
     "index": 10,
     "source": "fsh-generated/resources/ValueSet-ARTStartTypeValues.json",
-    "url": "http://example.org/fhir/fish/ValueSet/ARTStartTypeValues",
+    "url": "http://regenstrief.org/fhir/ValueSet/ARTStartTypeValues",
     "name": "ARTStartTypeValues",
     "title": "ART Start Type values",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -157,11 +157,11 @@
     "history": false,
     "index": 11,
     "source": "fsh-generated/resources/ValueSet-HIVGender.json",
-    "url": "http://example.org/fhir/fish/ValueSet/HIVGender",
+    "url": "http://regenstrief.org/fhir/ValueSet/HIVGender",
     "name": "HIVGender",
     "title": "Gender values",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -171,11 +171,11 @@
     "history": false,
     "index": 12,
     "source": "fsh-generated/resources/ValueSet-HIVStatusValues.json",
-    "url": "http://example.org/fhir/fish/ValueSet/HIVStatusValues",
+    "url": "http://regenstrief.org/fhir/ValueSet/HIVStatusValues",
     "name": "HIVStatusValues",
     "title": "HIV Status values",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -185,11 +185,11 @@
     "history": false,
     "index": 13,
     "source": "fsh-generated/resources/ValueSet-KeyPopValues.json",
-    "url": "http://example.org/fhir/fish/ValueSet/KeyPopValues",
+    "url": "http://regenstrief.org/fhir/ValueSet/KeyPopValues",
     "name": "KeyPopValues",
     "title": "Key Population values",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"
@@ -199,11 +199,11 @@
     "history": false,
     "index": 14,
     "source": "fsh-generated/resources/ValueSet-VLReasonValues.json",
-    "url": "http://example.org/fhir/fish/ValueSet/VLReasonValues",
+    "url": "http://regenstrief.org/fhir/ValueSet/VLReasonValues",
     "name": "VLReasonValues",
     "title": "Reason for HIV viral load test values",
     "version": "0.1.0",
-    "date": "2021-04-02T13:49:10-04:00",
+    "date": "2021-04-13T10:27:50-04:00",
     "status": {
       "class": "colstu",
       "status": "Active"

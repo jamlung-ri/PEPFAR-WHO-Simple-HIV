@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/fhir/fish/StructureDefinition/Observation-Key-Pop> a fhir:StructureDefinition;
+<http://regenstrief.org/fhir/StructureDefinition/Observation-Key-Pop> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Observation-Key-Pop"];
   fhir:DomainResource.text [
@@ -22,19 +22,19 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://example.org/fhir/fish/StructureDefinition/Observation-Key-Pop"];
+  fhir:StructureDefinition.url [ fhir:value "http://regenstrief.org/fhir/StructureDefinition/Observation-Key-Pop"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "Observation_Key_Pop"];
   fhir:StructureDefinition.title [ fhir:value "Observation - Key Population"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-04-02T13:49:10-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-04-13T10:27:50-04:00"^^xsd:dateTime];
   fhir:StructureDefinition.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Bill Cod" ];
+     fhir:ContactDetail.name [ fhir:value "Joseph Amlung" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "cod@reef.gov" ]
+       fhir:ContactPoint.value [ fhir:value "jamlung@regenstrief.org" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "The type of  key population that the client is included in"];
@@ -1441,8 +1441,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "preferred" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://example.org/fhir/fish/ValueSet/KeyPopValues";
-           fhir:link <http://example.org/fhir/fish/ValueSet/KeyPopValues>
+           fhir:value "http://regenstrief.org/fhir/ValueSet/KeyPopValues";
+           fhir:link <http://regenstrief.org/fhir/ValueSet/KeyPopValues>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -3012,8 +3012,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "preferred" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://example.org/fhir/fish/ValueSet/KeyPopValues";
-           fhir:link <http://example.org/fhir/fish/ValueSet/KeyPopValues>
+           fhir:value "http://regenstrief.org/fhir/ValueSet/KeyPopValues";
+           fhir:link <http://regenstrief.org/fhir/ValueSet/KeyPopValues>
          ]
        ]
      ]
@@ -3021,7 +3021,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://example.org/fhir/fish/StructureDefinition/Observation-Key-Pop.ttl> a owl:Ontology;
+<http://regenstrief.org/fhir/StructureDefinition/Observation-Key-Pop.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

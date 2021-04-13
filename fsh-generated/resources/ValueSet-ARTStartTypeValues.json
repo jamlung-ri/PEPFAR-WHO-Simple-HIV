@@ -6,11 +6,11 @@
   "title": "ART Start Type values",
   "description": "Codes describing whether the client is ART naive or is restarting ART",
   "version": "0.1.0",
-  "url": "http://example.org/fhir/fish/ValueSet/ARTStartTypeValues",
+  "url": "http://regenstrief.org/fhir/ValueSet/ARTStartTypeValues",
   "compose": {
     "include": [
       {
-        "system": "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+        "system": "http://regenstrief.org/fhir/CodeSystem/HIVExtendedCodes",
         "concept": [
           {
             "code": "First-time"

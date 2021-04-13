@@ -6,11 +6,11 @@
   "title": "Reason for HIV viral load test values",
   "description": "Codes describing the reason for HIV viral load test",
   "version": "0.1.0",
-  "url": "http://example.org/fhir/fish/ValueSet/VLReasonValues",
+  "url": "http://regenstrief.org/fhir/ValueSet/VLReasonValues",
   "compose": {
     "include": [
       {
-        "system": "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes",
+        "system": "http://regenstrief.org/fhir/CodeSystem/HIVExtendedCodes",
         "concept": [
           {
             "code": "Routine"

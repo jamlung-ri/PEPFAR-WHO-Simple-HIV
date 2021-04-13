@@ -5,26 +5,26 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes> a fhir:CodeSystem;
+<http://regenstrief.org/fhir/CodeSystem/HIVExtendedCodes> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "HIVExtendedCodes"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">First-time<a name=\"HIVExtendedCodes-First-time\"> </a></td><td>First-time user of ART</td><td>Client is ART naive, having never taken ART to treat HIV before</td></tr><tr><td style=\"white-space:nowrap\">Restarting<a name=\"HIVExtendedCodes-Restarting\"> </a></td><td>Restarting ART</td><td>Client is restarting ART after stopping treatment for any reason</td></tr><tr><td style=\"white-space:nowrap\">Routine<a name=\"HIVExtendedCodes-Routine\"> </a></td><td>Routine viral load test</td><td>Routine refers to viral load tests obtained at standard intervals following ART initiation to monitor viral load response to ART</td></tr><tr><td style=\"white-space:nowrap\">Targeted<a name=\"HIVExtendedCodes-Targeted\"> </a></td><td>Targeted viral load monitoring</td><td>Targeted refers to viral load tests obtained based on a specific clinical indication (such as concern about disease progression or failure to respond to ART)</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://regenstrief.org/fhir/CodeSystem/HIVExtendedCodes defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">First-time<a name=\"HIVExtendedCodes-First-time\"> </a></td><td>First-time user of ART</td><td>Client is ART naive, having never taken ART to treat HIV before</td></tr><tr><td style=\"white-space:nowrap\">Restarting<a name=\"HIVExtendedCodes-Restarting\"> </a></td><td>Restarting ART</td><td>Client is restarting ART after stopping treatment for any reason</td></tr><tr><td style=\"white-space:nowrap\">Routine<a name=\"HIVExtendedCodes-Routine\"> </a></td><td>Routine viral load test</td><td>Routine refers to viral load tests obtained at standard intervals following ART initiation to monitor viral load response to ART</td></tr><tr><td style=\"white-space:nowrap\">Targeted<a name=\"HIVExtendedCodes-Targeted\"> </a></td><td>Targeted viral load monitoring</td><td>Targeted refers to viral load tests obtained based on a specific clinical indication (such as concern about disease progression or failure to respond to ART)</td></tr></table></div>"
   ];
-  fhir:CodeSystem.url [ fhir:value "http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes"];
+  fhir:CodeSystem.url [ fhir:value "http://regenstrief.org/fhir/CodeSystem/HIVExtendedCodes"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "HIVExtendedCodes"];
   fhir:CodeSystem.title [ fhir:value "HIV Extended Codes"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-04-02T13:49:10-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-04-13T10:27:50-04:00"^^xsd:dateTime];
   fhir:CodeSystem.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Bill Cod" ];
+     fhir:ContactDetail.name [ fhir:value "Joseph Amlung" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "cod@reef.gov" ]
+       fhir:ContactPoint.value [ fhir:value "jamlung@regenstrief.org" ]
      ]
   ];
   fhir:CodeSystem.description [ fhir:value "Codes defined only in this Implementation Guide and require mapping to a standard semantic terminology."];
@@ -54,7 +54,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://example.org/fhir/fish/CodeSystem/HIVExtendedCodes.ttl> a owl:Ontology;
+<http://regenstrief.org/fhir/CodeSystem/HIVExtendedCodes.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

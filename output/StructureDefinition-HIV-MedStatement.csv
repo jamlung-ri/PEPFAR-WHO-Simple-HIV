@@ -25,7 +25,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"MedicationStatement.extension","ARTStartType","","",0,1,"","","","Extension {[CanonicalType[http://example.org/fhir/fish/StructureDefinition/ARTStartType]]} {[]}
+"MedicationStatement.extension","ARTStartType","","",0,1,"","","","Extension {[CanonicalType[http://regenstrief.org/fhir/StructureDefinition/ARTStartType]]} {[]}
 ","ART Start Type","Whether the client is ART naive or is restarting ART","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

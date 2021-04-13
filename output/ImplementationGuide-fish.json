@@ -3,26 +3,26 @@
   "id": "fish",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FishImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/fhir/fish/ImplementationGuide/fish</pre><div><p>An example of how FSH can be used to create an IG about fish</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>SimpleHIVImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://regenstrief.org/fhir/ImplementationGuide/fish</pre><div><p>Simple HIV Implementation Guide for CQL Testing (non-normative)</p>\n</div></div>"
   },
-  "url": "http://example.org/fhir/fish/ImplementationGuide/fish",
+  "url": "http://regenstrief.org/fhir/ImplementationGuide/fish",
   "version": "0.1.0",
-  "name": "FishImplementationGuide",
-  "title": "Fish Implementation Guide",
+  "name": "SimpleHIVImplementationGuide",
+  "title": "Simple HIV Implementation Guide",
   "status": "draft",
-  "date": "2021-04-02T13:49:10-04:00",
+  "date": "2021-04-13T10:27:50-04:00",
   "contact": [
     {
-      "name": "Bill Cod",
+      "name": "Joseph Amlung",
       "telecom": [
         {
           "system": "email",
-          "value": "cod@reef.gov"
+          "value": "jamlung@regenstrief.org"
         }
       ]
     }
   ],
-  "description": "An example of how FSH can be used to create an IG about fish",
+  "description": "Simple HIV Implementation Guide for CQL Testing (non-normative)",
   "packageId": "fish",
   "license": "CC0-1.0",
   "fhirVersion": [
@@ -194,7 +194,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://example.org/fhir/fish/history.html"
+            "valueString": "http://regenstrief.org/fhir/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"

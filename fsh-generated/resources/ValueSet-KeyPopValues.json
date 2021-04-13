@@ -6,7 +6,7 @@
   "title": "Key Population values",
   "description": "Codes describing the type of  key population that the client is included in",
   "version": "0.1.0",
-  "url": "http://example.org/fhir/fish/ValueSet/KeyPopValues",
+  "url": "http://regenstrief.org/fhir/ValueSet/KeyPopValues",
   "compose": {
     "include": [
       {

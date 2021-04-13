@@ -6,7 +6,7 @@
   "title": "HIV Status values",
   "description": "Codes describing whether the client received a positive HIV test result",
   "version": "0.1.0",
-  "url": "http://example.org/fhir/fish/ValueSet/HIVStatusValues",
+  "url": "http://regenstrief.org/fhir/ValueSet/HIVStatusValues",
   "compose": {
     "include": [
       {

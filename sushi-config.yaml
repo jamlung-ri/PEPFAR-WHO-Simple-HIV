@@ -4,7 +4,7 @@
 # │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fish
-canonical: http://example.org/fhir/fish
+canonical: http://regenstrief.org/fhir
 version: 0.1.0
 name: SimpleHIVImplementationGuide
 title: Simple HIV Implementation Guide
