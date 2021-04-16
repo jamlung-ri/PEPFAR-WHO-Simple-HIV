@@ -5,11 +5,12 @@ using FHIR version '4.0.1'
 include FHIRHelpers version '4.0.1'
 include FHIRCommon version '0.1.0' called FC
 include AgeRanges version '0.1.0' called AR
+include WHOAgeRanges version '0.1.0' called WA
 
 // inclusive (closed) boundaries are indicated with square brackets,
 // and exclusive (open) boundaries are indicated with parentheses
-parameter MeasurementPeriod default Interval[@1970-01-01, @2021-01-01)
-//parameter MeasurementPeriod default Interval[@2000-01-01, @2021-01-01)
+//parameter MeasurementPeriod default Interval[@1970-01-01, @2021-01-01)
+parameter MeasurementPeriod default Interval[@2000-01-01, @2021-01-01)
 
 // SNOMED-CT, International Edition
 codesystem "SNOMED-CT": 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008'
@@ -79,6 +80,15 @@ define "Suppressed VL Result in Reporting Period":
 define "Denominator": "Living" and "HIV Condition" and "On ART" and "VL Result in Reporting Period"
 
 define "Numerator": "Denominator" and "Suppressed VL Result in Reporting Period"
+
+define "Sex":
+  Patient.gender
+
+define "Age Group/Sex":
+  AR."Age Group".code + ':' + "Sex"
+
+  define "WHO Age Group/Sex":
+  WA."WHO Age Group".code + ':' + "Sex"
 
 //define "Race": USExtensions(Patient, 'us-core-race')
 
